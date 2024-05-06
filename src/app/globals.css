@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.primary-button {
+  @apply px-3 py-1 bg-gradient-to-br from-primary to-third rounded-full text-white font-semibold;
+}
+
+/*  HERO   */
+
+.bg-hero {
+  position: relative;
+  background-image: url(../../public/assets/images/dicaprio.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60%;
+  z-index: 0;
+}
+
+.bg-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: linear-gradient(
+    45deg,
+    rgba(4, 6, 17, 100) 10.57%,
+    rgba(4, 6, 17, 0.5) 74.91%
+  );
+}
+
+.container-page {
+  @apply py-24 md:py-28 xl:py-32 px-8 sm:px-14 md:px-16 lg:px-20;
+}
+.sec-container {
+  max-width: 1550px;
+  max-height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
