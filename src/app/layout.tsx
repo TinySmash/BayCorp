@@ -19,7 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Providers>
-        <body className={`bg-white overflow-x-hidden ${montserrat.className}`}>
+        <body
+          className={`bg-white overflow-x-hidden scrollbar-hidden ${montserrat.className}`}
+        >
           <Navbar />
           {children}
         </body>

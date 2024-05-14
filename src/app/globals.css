@@ -6,6 +6,22 @@
   @apply px-3 py-1 bg-gradient-to-br from-primary to-third rounded-full text-white font-semibold;
 }
 
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
 /*  HERO   */
 
 .bg-hero {
@@ -40,4 +56,18 @@
   max-height: 900px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* SECTION 2 */
+
+.list-slide-item {
+  @apply w-4/5 sm:w-[66%] md:w-1/4 lg:max-w-[320px] xl:max-h-[600px] rounded-lg h-[16vh] sm:h-[18vh] md:h-[85%] lg:h-3/4 xl:h-full relative overflow-hidden;
+}
+
+.slide-off {
+  @apply -translate-x-[100vh] md:translate-x-0 md:translate-y-[100vh];
+}
+
+.slide-off-alt {
+  @apply translate-x-[100vh] md:translate-x-0 md:translate-y-[100vh];
 }
