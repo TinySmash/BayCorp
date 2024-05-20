@@ -17,7 +17,7 @@ function Hero() {
         Get started
       </button>
       <HeroSlider />
-      <ul className="w-auto h-auto bg-gradient-to-br from-primary to-third hidden md:flex items-center gap-16 z-10 rounded-lg px-12 py-4 lg:py-6 lg:px-20">
+      <ul className="w-auto h-auto bg-alter-gradient hidden md:flex items-center gap-16 z-10 rounded-lg px-12 py-4 lg:py-6 lg:px-20">
         <li
           className="relative  rounded-md flex flex-col items-center gap-2 transition-all duration-200 z-10"
           // ref={previousItemRef}
@@ -30,7 +30,7 @@ function Hero() {
           </h1>
         </li>
         <li
-          className="relative h-auto w-4/5 p-2 bg-gradient-to-br from-primary to-third rounded-md flex flex-col items-center gap-2 transition-all duration-200"
+          className="relative h-auto w-4/5 p-2 rounded-md flex flex-col items-center gap-2 transition-all duration-200"
           // ref={previousItemRef}
         >
           <HiOutlineGlobeEuropeAfrica className="text-white text-7xl" />
@@ -41,7 +41,7 @@ function Hero() {
           </h1>
         </li>
         <li
-          className="relative h-auto w-4/5 p-2 bg-gradient-to-br from-primary to-third rounded-md flex flex-col items-center gap-2 transition-all duration-200"
+          className="relative h-auto w-4/5 p-2 rounded-md flex flex-col items-center gap-2 transition-all duration-200"
           // ref={previousItemRef}
         >
           <CgScreen className="text-white text-7xl" />
