@@ -52,10 +52,17 @@ body {
   bottom: 0;
   z-index: 1;
   background: linear-gradient(
-    45deg,
-    rgba(4, 6, 17, 100) 10.57%,
-    rgba(4, 6, 17, 0.5) 74.91%
-  );
+      to top,
+      rgba(4, 6, 17, 1) 0%,
+      /* Dark at the top */ rgba(4, 6, 17, 0.3) 10%,
+      /* Slightly lighter */ transparent 30% /* Fully transparent */
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(4, 6, 17, 1) 0%,
+      /* Dark at the bottom */ rgba(4, 6, 17, 0.3) 10%,
+      /* Slightly lighter */ transparent 30% /* Fully transparent */
+    );
 }
 
 .bg-alter-gradient {
@@ -64,6 +71,56 @@ body {
     rgba(56, 100, 255, 0.8),
     rgba(202, 88, 255, 0.8)
   );
+}
+
+.slide-track {
+  width: calc(88px * 8);
+  @apply gap-12 md:gap-[86px] lg:gap-28 xl:gap-36;
+}
+
+.channel {
+  @apply w-full scale-[1.2] md:scale-[1.4];
+}
+
+.channel-container {
+  @apply relative h-auto scale-[1.2] md:scale-[1.4];
+}
+
+.animate-channel-slider {
+  animation: channels;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes channels {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-92px * 8));
+  }
+}
+
+@keyframes channels-big-screens {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slide-track {
+    width: 100vw;
+  }
+  .animate-channel-slider {
+    animation: channels-big-screens;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
 }
 
 /* SECTION 2 */

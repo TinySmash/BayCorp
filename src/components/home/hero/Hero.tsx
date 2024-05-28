@@ -2,10 +2,11 @@ import { MdOutlineVideoSettings } from "react-icons/md";
 import HeroSlider from "./Slider";
 import { HiOutlineGlobeEuropeAfrica } from "react-icons/hi2";
 import { CgScreen } from "react-icons/cg";
+import Image from "next/image";
 
 function Hero() {
   return (
-    <section className="bg-hero w-full h-screen relative text-center flex flex-col items-center container-page gap-2 md:gap-4">
+    <section className="bg-hero w-full h-[120vh] relative text-center flex flex-col items-center container-page gap-2 md:gap-4">
       <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white z-10 md:mt-10">
         Stream Unlimited Entertainment
       </h1>
@@ -52,6 +53,156 @@ function Hero() {
           </h1>
         </li>
       </ul>
+      <div className="animate-channel-slider absolute w-full h-[20vh] flex items-center bottom-4 z-10 scrollbar-hidden gap-12">
+        <ul className="absolute slide-track h-[20vh] flex flex-nowrap  items-center">
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/hbomax.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/la-liga.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/dazn.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/espn.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/premier-league.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/nbc.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/prime.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/Disney+.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+        </ul>
+        <ul className="absolute slide-track h-[20vh] flex flex-nowrap pl-12 md:pl-[60px] lg:pl-28 xl:pl-36  items-center translate-x-full">
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/hbomax.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/la-liga.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/dazn.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/espn.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/premier-league.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/nbc.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/prime.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+          <li className="channel-container">
+            <Image
+              src="/assets/images/channels/Disney+.png"
+              alt=""
+              width={50}
+              height={50}
+              className="channel"
+            ></Image>
+          </li>
+        </ul>
+      </div>
     </section>
   );
 }
