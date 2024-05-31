@@ -53,8 +53,8 @@ function Hero() {
           </h1>
         </li>
       </ul>
-      <div className="animate-channel-slider absolute w-full h-[20vh] flex items-center bottom-4 z-10 scrollbar-hidden gap-12">
-        <ul className="absolute slide-track h-[20vh] flex flex-nowrap  items-center">
+      <div className=" absolute w-full h-[20vh] flex items-center bottom-4 z-10 scrollbar-hidden gap-12">
+        <ul className="absolute slider-track animate-channel-slider">
           <li className="channel-container">
             <Image
               src="/assets/images/channels/hbomax.png"
@@ -127,8 +127,6 @@ function Hero() {
               className="channel"
             ></Image>
           </li>
-        </ul>
-        <ul className="absolute slide-track h-[20vh] flex flex-nowrap pl-12 md:pl-[60px] lg:pl-28 xl:pl-36  items-center translate-x-full">
           <li className="channel-container">
             <Image
               src="/assets/images/channels/hbomax.png"
