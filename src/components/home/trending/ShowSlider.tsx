@@ -12,9 +12,9 @@ function ShowSlider(props: sliderProps) {
         {props.label}
       </h1>
       <div className="slide-track">
-        {props.Movies.map((e) => {
+        {props.Movies.map((e, i) => {
           return (
-            <div className="slide-item">
+            <div className="slide-item" key={i}>
               <img
                 alt="Movie poster"
                 src={`https://image.tmdb.org/t/p/w500${e}`}
@@ -23,9 +23,9 @@ function ShowSlider(props: sliderProps) {
             </div>
           );
         })}
-        {props.Movies.map((e) => {
+        {props.Movies.map((e, i) => {
           return (
-            <div className="slide-item">
+            <div className="slide-item" key={i}>
               <img
                 alt="Movie poster"
                 src={`https://image.tmdb.org/t/p/w500${e}`}

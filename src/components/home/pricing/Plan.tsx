@@ -25,9 +25,12 @@ function PricingPlan(props: pricingTag) {
         <span className="text-lg md:text-xl font-medium">/year</span>
       </h2>
       <ul className="list-none w-full md:mt-8 flex flex-col gap-2 text-sm md:text-base lg:text-xl xl:text-2xl ">
-        {props.features.map((e) => {
+        {props.features.map((e, i) => {
           return (
-            <li className="flex items-center gap-2 font-medium text-black text-xs md:text-base lg:text-sm xl:text-lg">
+            <li
+              className="flex items-center gap-2 font-medium text-black text-xs md:text-base lg:text-sm xl:text-lg"
+              key={i}
+            >
               <span className="w-5 h-5 text-lg text-white flex justify-center items-center  bg-gradient-to-br from-primary to-third rounded-full">
                 ✓
               </span>{" "}
