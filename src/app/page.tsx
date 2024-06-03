@@ -1,5 +1,6 @@
 import About from "@/components/home/about/About";
 import Hero from "@/components/home/hero/Hero";
+import Pricing from "@/components/home/pricing/Pricing";
 import SlideShowSection from "@/components/home/slideSection/Section";
 import Trending from "@/components/home/trending/Trending";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <SlideShowSection />
       <About />
       <Trending />
+      <Pricing />
     </main>
   );
 }

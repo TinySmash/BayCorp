@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 function About() {
   return (
-    <section className="relative w-full h-screen container-page sec-container bg-white flex flex-col items-center md:items-start text-center md:text-start gap-4">
+    <section className="relative w-full h-auto min-h-screen container-page sec-container bg-white flex flex-col items-center md:items-start text-center md:text-start gap-4">
       <h1 className="text-2xl md:text-3xl lg:text-4xl lg:w-2/3 font-bold text-black md:mb-10">
         <span className="text-primary">Nex</span>
         <span className="text-third">IPTV </span>
@@ -56,6 +56,53 @@ function About() {
             ✓
           </span>{" "}
           Local to international content
+        </li>
+      </ul>
+      <ul className="list-none relative bottom-0 w-full hidden md:flex items-center justify-between xl:justify-evenly  mt-10 xl:mt-16">
+        <li className="">
+          <Image
+            width={30}
+            height={30}
+            alt="lg"
+            src="/assets/images/about/lg.svg"
+            className="w-24"
+          ></Image>
+        </li>
+        <li className="">
+          <Image
+            width={30}
+            height={30}
+            alt="samsung"
+            src="/assets/images/about/samsung.svg"
+            className="w-24"
+          ></Image>
+        </li>
+        <li className="">
+          <Image
+            width={30}
+            height={30}
+            alt="windows"
+            src="/assets/images/about/windows.svg"
+            className="w-24"
+          ></Image>
+        </li>
+        <li className="">
+          <Image
+            width={30}
+            height={30}
+            alt="apple"
+            src="/assets/images/about/apple.svg"
+            className="w-16"
+          ></Image>
+        </li>
+        <li className="">
+          <Image
+            width={30}
+            height={30}
+            alt="android"
+            src="/assets/images/about/android.svg"
+            className="w-24"
+          ></Image>
         </li>
       </ul>
     </section>
