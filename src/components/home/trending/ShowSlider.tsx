@@ -15,22 +15,14 @@ function ShowSlider(props: sliderProps) {
         {props.Movies.map((e, i) => {
           return (
             <div className="slide-item" key={i}>
-              <img
-                alt="Movie poster"
-                src={`https://image.tmdb.org/t/p/w500${e}`}
-                className="slide-image"
-              ></img>
+              <img alt="Movie poster" src={e} className="slide-image"></img>
             </div>
           );
         })}
         {props.Movies.map((e, i) => {
           return (
             <div className="slide-item" key={i}>
-              <img
-                alt="Movie poster"
-                src={`https://image.tmdb.org/t/p/w500${e}`}
-                className="slide-image"
-              ></img>
+              <img alt="Movie poster" src={e} className="slide-image"></img>
             </div>
           );
         })}

@@ -6,6 +6,16 @@ import ShowSlider from "./ShowSlider";
 
 function Trending() {
   const [movies, setMovies] = useState<any>([]);
+  const [sportsposters, setSportsPosters] = useState<string[]>([
+    "f1.jpg",
+    "jonjones.jpg",
+    "nba-finals.jpg",
+    "tank-davis.jpg",
+    "tennis.jpg",
+    "ucl.jpg",
+    "ufc.jpg",
+    "world-cup.jpg",
+  ]);
 
   const discoverMovies = () => {
     fetch(
@@ -33,8 +43,18 @@ function Trending() {
         <RiFireLine className="text-black text-2xl md:text-3xl xl:text-5xl" />
         Trending
       </h1>
-      <ShowSlider label="Movies & Series" Movies={movies.slice(0, 8)} />
-      <ShowSlider label="Movies & Series" Movies={movies.slice(0, 8)} />
+      <ShowSlider
+        label="Movies & Series"
+        Movies={movies.slice(0, 8).map((e) => {
+          return `https://image.tmdb.org/t/p/w500${e}`;
+        })}
+      />
+      <ShowSlider
+        label="Sports"
+        Movies={sportsposters.map((e) => {
+          return `/assets/images/sports-posters/${e}`;
+        })}
+      />
     </section>
   );
 }

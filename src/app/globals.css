@@ -187,5 +187,5 @@ body {
 }
 
 .slide-image {
-  @apply w-full h-auto;
+  @apply w-full h-max;
 }
