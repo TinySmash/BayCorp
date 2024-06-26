@@ -1,8 +1,12 @@
 "use client";
-import Link from "next/link";
-import { useSelector } from "react-redux";
+
+import { useSelector, useDispatch } from "react-redux";
+import * as ReactScroll from "react-scroll";
+
+import { toggleNav } from "@/redux/reducers/navSlice";
 
 function Panel() {
+  const dispatch = useDispatch();
   const isPanelOpened = useSelector((state: any) => state.navbar);
 
   return (
@@ -12,9 +16,39 @@ function Panel() {
       }`}
     >
       <nav className="flex flex-col items-center gap-4 text-black text-sm font-medium">
-        <Link href="">Services</Link>
-        <Link href="">About</Link>
-        <Link href="">Pricing</Link>
+        <ReactScroll.Link
+          onClick={() => {
+            dispatch(toggleNav());
+          }}
+          to="about"
+          smooth={true}
+          duration={500}
+          className="transition-all cursor-pointer"
+        >
+          About
+        </ReactScroll.Link>
+        <ReactScroll.Link
+          onClick={() => {
+            dispatch(toggleNav());
+          }}
+          to="trending"
+          smooth={true}
+          duration={500}
+          className="transition-all cursor-pointer"
+        >
+          Trending
+        </ReactScroll.Link>
+        <ReactScroll.Link
+          onClick={() => {
+            dispatch(toggleNav());
+          }}
+          to="pricing"
+          smooth={true}
+          duration={500}
+          className="transition-all cursor-pointer"
+        >
+          Pricing
+        </ReactScroll.Link>
       </nav>
       <button className="primary-button flex">Get started</button>
     </aside>

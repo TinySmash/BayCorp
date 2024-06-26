@@ -38,7 +38,10 @@ function Trending() {
   }, []);
 
   return (
-    <section className="relative w-full h-auto min-h-screen bg-white container-page sec-container flex flex-col text-center gap-4">
+    <section
+      className="relative w-full h-auto min-h-screen bg-white container-page sec-container flex flex-col text-center gap-4"
+      id="trending"
+    >
       <h1 className="text-black font-bold text-2xl md:text-3xl xl:text-5xl flex items-center gap-1 self-center mb-6">
         <RiFireLine className="text-black text-2xl md:text-3xl xl:text-5xl" />
         Trending

@@ -3,7 +3,10 @@ import { IoIosArrowForward } from "react-icons/io";
 
 function About() {
   return (
-    <section className="relative w-full h-auto min-h-screen container-page sec-container bg-white flex flex-col items-center md:items-start text-center md:text-start gap-4">
+    <section
+      id="about"
+      className="relative w-full h-auto min-h-screen container-page sec-container bg-white flex flex-col items-center md:items-start text-center md:text-start gap-4"
+    >
       <h1 className="text-2xl md:text-3xl lg:text-4xl lg:w-2/3 font-bold text-black md:mb-10">
         <span className="text-primary">Nex</span>
         <span className="text-third">IPTV </span>
