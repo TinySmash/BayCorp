@@ -15,6 +15,7 @@ function ShowSlider(props: sliderProps) {
         {props.Movies.map((e, i) => {
           return (
             <div className="slide-item" key={i}>
+              {/* @ts-ignore */}
               <img alt="Movie poster" src={e} className="slide-image"></img>
             </div>
           );
@@ -22,6 +23,7 @@ function ShowSlider(props: sliderProps) {
         {props.Movies.map((e, i) => {
           return (
             <div className="slide-item" key={i}>
+              {/* @ts-ignore */}
               <img alt="Movie poster" src={e} className="slide-image"></img>
             </div>
           );
