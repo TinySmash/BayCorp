@@ -48,13 +48,13 @@ function Trending() {
       </h1>
       <ShowSlider
         label="Movies & Series"
-        Movies={movies.slice(0, 8).map((e) => {
+        Movies={movies.slice(0, 8).map((e: any) => {
           return `https://image.tmdb.org/t/p/w500${e}`;
         })}
       />
       <ShowSlider
         label="Sports"
-        Movies={sportsposters.map((e) => {
+        Movies={sportsposters.map((e: any) => {
           return `/assets/images/sports-posters/${e}`;
         })}
       />
