@@ -22,25 +22,25 @@ function Faq() {
         <ul className="w-full lg:w-3/5 overflow-hidden flex flex-col items-center gap-5 list-none">
           <FaqBlock
             isOpened={true}
-            question="What Sets Us Apart from Traditional services?"
-            answer="HealthX360 stands out by focusing on the root causes of health issues across multiple dimensions—physical, physiological, psychological, and spiritual—ensuring personalized and effective treatment plans that go beyond symptom management"
+            question="How to set up IPTV on my device?"
+            answer="It is quite simple to connect IPTV. Follow the installation tutorial page , chat with us or send us an email. Our agents will help you to set it up on your device"
           />
           <FaqBlock
-            question="What Sets Us Apart from Traditional services?"
-            answer="HealthX360 stands out by focusing on the root causes of health issues across multiple dimensions—physical, physiological, psychological, and spiritual—ensuring personalized and effective treatment plans that go beyond symptom management"
+            question="How long will it take to receive IPTV login information?"
+            answer="We tend to text you within 5 minutes to 1 hour of purchase to coordinate setting up your order"
           />
           <FaqBlock
-            question="What Sets Us Apart from Traditional services?"
-            answer="HealthX360 stands out by focusing on the root causes of health issues across multiple dimensions—physical, physiological, psychological, and spiritual—ensuring personalized and effective treatment plans that go beyond symptom management"
+            question="What devices does IPTV support?"
+            answer="Our IPTV server supports all TV boxes: Android, Smart TV, iOS, Windows and Mac OS, Mag Box, Firestick, and all devices can be supported upon request"
           />
           <FaqBlock
+            question="What content do they provide?"
+            answer="We offer a wide range of European, Spanish, Latin, Irish, British, American and Asian channels, movies and TV shows in 4K / FHD / HD quality"
+          />
+          {/* <FaqBlock
             question="What Sets Us Apart from Traditional services?"
             answer="HealthX360 stands out by focusing on the root causes of health issues across multiple dimensions—physical, physiological, psychological, and spiritual—ensuring personalized and effective treatment plans that go beyond symptom management"
-          />
-          <FaqBlock
-            question="What Sets Us Apart from Traditional services?"
-            answer="HealthX360 stands out by focusing on the root causes of health issues across multiple dimensions—physical, physiological, psychological, and spiritual—ensuring personalized and effective treatment plans that go beyond symptom management"
-          />
+          /> */}
         </ul>
       </div>
     </section>

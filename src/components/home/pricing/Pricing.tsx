@@ -44,89 +44,115 @@ function Pricing() {
         >
           <SwiperSlide>
             <PricingPlan
-              name="Basic"
-              price={29.99}
+              name="1 month"
+              price={10}
               features={[
-                "Easy to use",
-                "Fast & secure service",
-                "Local to international content",
-                "Local to international content",
+                "+70,000 Channels, Movies and Series",
+                "High Quality 4K FHD HD",
+                "No Freezing",
+                "All devices are supported",
+                "24/7 Support",
+                "Always Available Server",
               ]}
             />
           </SwiperSlide>
           <SwiperSlide>
             <PricingPlan
-              name="Standard"
-              price={49.99}
+              name="3 months"
+              price={20}
               features={[
-                "Easy to use",
-                "Fast & secure service",
-                "Local to international content",
-                "Local to international content",
-                "Local to international content",
+                "+70,000 Channels, Movies and Series",
+                "High Quality 4K FHD HD",
+                "No Freezing",
+                "All devices are supported",
+                "24/7 Support",
+                "Always Available Server",
+              ]}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <PricingPlan
+              name="6 months"
+              price={30}
+              features={[
+                "+70,000 Channels, Movies and Series",
+                "High Quality 4K FHD HD",
+                "No Freezing",
+                "All devices are supported",
+                "24/7 Support",
+                "Always Available Server",
+              ]}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <PricingPlan
+              name="12 months"
+              price={45}
+              features={[
+                "+70,000 Channels, Movies and Series",
+                "High Quality 4K FHD HD",
+                "No Freezing",
+                "All devices are supported",
+                "24/7 Support",
+                "Always Available Server",
               ]}
               topSeller={true}
             />
           </SwiperSlide>
-          <SwiperSlide>
-            <PricingPlan
-              name="Standard"
-              price={50}
-              features={[
-                "Easy to use",
-                "Fast & secure service",
-                "Local to international content",
-                "Local to international content",
-                "Local to international content",
-                "Local to international content",
-              ]}
-            />
-          </SwiperSlide>
           <div className="slider-controler mt-20">
-            {/* <div className="swiper-button-prev slider-arrow">
-           
-          </div>
-          <div className="swiper-button-next slider-arrow">
-            
-          </div> */}
             <div className="swiper-pagination"></div>
           </div>
         </Swiper>
       </div>
       <div className="relative w-full h-auto hidden lg:flex items-center justify-between">
         <PricingPlan
-          name="Basic"
-          price={29.99}
+          name="1 month"
+          price={10}
           features={[
-            "Easy to use",
-            "Fast & secure service",
-            "Local to international content",
-            "Local to international content",
+            "+70,000 Channels, Movies and Series",
+            "High Quality 4K FHD HD",
+            "No Freezing",
+            "All devices are supported",
+            "24/7 Support",
+            "Always Available Server",
           ]}
         />
         <PricingPlan
-          name="Standard"
-          price={49.99}
+          name="2 months"
+          price={20}
           features={[
-            "Easy to use",
-            "Fast & secure service",
-            "Local to international content",
-            "Local to international content",
-            "Local to international content",
+            "+70,000 Channels, Movies and Series",
+            "High Quality 4K FHD HD",
+            "No Freezing",
+            "All devices are supported",
+            "24/7 Support",
+            "Always Available Server",
+          ]}
+        />
+        <PricingPlan
+          name="6 months"
+          price={30}
+          features={[
+            "+70,000 Channels, Movies and Series",
+            "High Quality 4K FHD HD",
+            "No Freezing",
+            "All devices are supported",
+            "24/7 Support",
+            "Always Available Server",
+          ]}
+        />
+        <PricingPlan
+          name="12 months"
+          price={45}
+          features={[
+            "+70,000 Channels, Movies and Series",
+            "High Quality 4K FHD HD",
+            "No Freezing",
+            "All devices are supported",
+            "24/7 Support",
+            "Always Available Server",
           ]}
           topSeller={true}
-        />
-        <PricingPlan
-          name="Premium"
-          price={89.99}
-          features={[
-            "Easy to use",
-            "Fast & secure service",
-            "Local to international content",
-            "Local to international content",
-            "Local to international content",
-            "Local to international content",
-          ]}
         />
       </div>
     </section>

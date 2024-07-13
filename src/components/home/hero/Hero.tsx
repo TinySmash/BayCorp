@@ -57,7 +57,7 @@ function Hero() {
         <ul className="absolute slider-track animate-channel-slider">
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/hbomax.png"
+              src="/assets/images/channels/hbomax.svg"
               alt=""
               width={50}
               height={50}
@@ -66,7 +66,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/la-liga.png"
+              src="/assets/images/channels/la-liga.svg"
               alt=""
               width={50}
               height={50}
@@ -75,7 +75,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/dazn.png"
+              src="/assets/images/channels/dazn.svg"
               alt=""
               width={50}
               height={50}
@@ -84,7 +84,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/espn.png"
+              src="/assets/images/channels/espn.svg"
               alt=""
               width={50}
               height={50}
@@ -93,7 +93,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/premier-league.png"
+              src="/assets/images/channels/premier-league.svg"
               alt=""
               width={50}
               height={50}
@@ -102,7 +102,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/nbc.png"
+              src="/assets/images/channels/nbc.svg"
               alt=""
               width={50}
               height={50}
@@ -111,7 +111,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/prime.png"
+              src="/assets/images/channels/prime.svg"
               alt=""
               width={50}
               height={50}
@@ -120,7 +120,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/Disney+.png"
+              src="/assets/images/channels/Disney+.svg"
               alt=""
               width={50}
               height={50}
@@ -129,7 +129,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/hbomax.png"
+              src="/assets/images/channels/hbomax.svg"
               alt=""
               width={50}
               height={50}
@@ -138,7 +138,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/la-liga.png"
+              src="/assets/images/channels/la-liga.svg"
               alt=""
               width={50}
               height={50}
@@ -147,7 +147,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/dazn.png"
+              src="/assets/images/channels/dazn.svg"
               alt=""
               width={50}
               height={50}
@@ -156,7 +156,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/espn.png"
+              src="/assets/images/channels/espn.svg"
               alt=""
               width={50}
               height={50}
@@ -165,7 +165,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/premier-league.png"
+              src="/assets/images/channels/premier-league.svg"
               alt=""
               width={50}
               height={50}
@@ -174,7 +174,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/nbc.png"
+              src="/assets/images/channels/nbc.svg"
               alt=""
               width={50}
               height={50}
@@ -183,7 +183,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/prime.png"
+              src="/assets/images/channels/prime.svg"
               alt=""
               width={50}
               height={50}
@@ -192,7 +192,7 @@ function Hero() {
           </li>
           <li className="channel-container">
             <Image
-              src="/assets/images/channels/Disney+.png"
+              src="/assets/images/channels/Disney+.svg"
               alt=""
               width={50}
               height={50}

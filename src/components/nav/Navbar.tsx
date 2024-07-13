@@ -29,7 +29,7 @@ function Navbar() {
   return (
     <>
       <header
-        className="fixed bg-transparent sec-container xl:left-1/2 xl:-translate-x-1/2  w-full h-auto px-5 md:px-10 xl:px-16 py-4 md:py-6 xl:py-8 flex justify-between items-center z-[999] bg-opacity-85"
+        className="fixed bg-transparent xl:left-1/2 xl:-translate-x-1/2  w-full h-auto px-5 md:px-10 xl:px-16 py-4 md:py-6 xl:py-8 flex justify-between items-center z-[999] bg-opacity-85"
         ref={navRef}
       >
         <h1 className="font-bold text-xl md:text-2xl xl:text-3xl text-primary">

@@ -41,7 +41,7 @@ function About() {
           className="w-2/5 xl:w-1/3 h-auto shadow-xl hidden md:flex"
         ></Image>
       </div>
-      <ul className="list-none w-full mt-3 md:mt-8 flex flex-col gap-2 text-sm md:text-base lg:text-xl xl:text-2xl ">
+      <ul className="list-none w-full mt-3 md:mt-0 flex flex-col gap-2 text-sm md:text-base lg:text-xl xl:text-2xl ">
         <li className="flex items-center gap-2 font-semibold text-black">
           <span className="w-6 h-6 text-lg text-white flex justify-center items-center  bg-gradient-to-br from-primary to-third rounded-full">
             ✓
