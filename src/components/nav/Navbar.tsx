@@ -9,13 +9,20 @@ import { useEffect, useRef } from "react";
 function Navbar() {
   const dispatch = useDispatch();
   const navRef = useRef<any>(null);
+  const navLinksRef = useRef<any>(null);
+  const navMenu = useRef<any>(null);
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.pageYOffset > 200) {
-        navRef.current?.classList?.replace("bg-transparent", "bg-black");
+        navRef.current?.classList?.replace("bg-transparent", "bg-white");
+        navMenu.current?.classList?.replace("text-white", "text-black");
+        navLinksRef.current?.classList?.replace("text-white", "text-black");
         // navRef.current?.classList.add("bg-opacity-75")
       } else {
-        navRef.current?.classList?.replace("bg-black", "bg-transparent");
+        navRef.current?.classList?.replace("bg-white", "bg-transparent");
+        navMenu.current?.classList?.replace("text-black", "text-white");
+        navLinksRef.current?.classList?.replace("text-black", "text-white");
       }
     };
 
@@ -29,13 +36,16 @@ function Navbar() {
   return (
     <>
       <header
-        className="fixed bg-transparent xl:left-1/2 xl:-translate-x-1/2  w-full h-auto px-5 md:px-10 xl:px-16 py-4 md:py-6 xl:py-8 flex justify-between items-center z-[999] bg-opacity-85"
+        className="fixed bg-transparent xl:left-1/2 xl:-translate-x-1/2  w-full h-auto px-5 md:px-10 xl:px-16 py-4 md:py-6 xl:py-8 flex justify-between items-center z-[999] bg-opacity-85 transition-all duration-[700ms]"
         ref={navRef}
       >
         <h1 className="font-bold text-xl md:text-2xl xl:text-3xl text-primary">
           Bay<span className="text-third">Corp</span>
         </h1>
-        <nav className="hidden md:flex items-center gap-10 text-white text-sm md:text-base xl:text-lg font-medium">
+        <nav
+          className="hidden md:flex items-center gap-10 text-white text-sm md:text-base xl:text-lg font-medium"
+          ref={navLinksRef}
+        >
           <Link href="">Services</Link>
           <Link href="">About</Link>
           <Link href="">Pricing</Link>
@@ -44,12 +54,13 @@ function Navbar() {
           Get started
         </button>
         <button
-          className="md:hidden"
+          className="md:hidden transition-all duration-700 text-white"
           onClick={() => {
             dispatch(toggleNav());
           }}
+          ref={navMenu}
         >
-          <RiMenuFoldLine className="text-2xl text-white" />
+          <RiMenuFoldLine className="text-2xl" />
         </button>
       </header>
       <Panel />

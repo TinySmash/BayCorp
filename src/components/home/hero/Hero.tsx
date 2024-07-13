@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <section className="bg-hero w-full h-[120vh] relative text-center flex flex-col items-center container-page gap-2 md:gap-4">
+    <section className="bg-hero w-full h-screen md:h-[120vh] relative text-center flex flex-col items-center container-page gap-2 md:gap-4">
       <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white z-10 md:mt-10">
         Stream Unlimited Entertainment
       </h1>

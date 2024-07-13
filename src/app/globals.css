@@ -74,8 +74,8 @@ body {
 }
 
 :root {
-  --channel-slide-width: 25vw;
-  --channel-slide-width-reverse: -25vw;
+  --channel-slide-width: 40vw;
+  --channel-slide-width-reverse: -40vw;
 }
 
 /* Adjust the variable for larger screens */
