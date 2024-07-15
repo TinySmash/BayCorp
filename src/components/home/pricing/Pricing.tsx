@@ -104,7 +104,7 @@ function Pricing() {
           </div>
         </Swiper>
       </div>
-      <div className="relative w-full h-auto hidden lg:flex items-center justify-between">
+      <div className="relative w-full h-auto hidden lg:flex items-center justify-center">
         <PricingPlan
           name="1 month"
           price={10}

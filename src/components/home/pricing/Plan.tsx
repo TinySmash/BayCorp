@@ -8,7 +8,7 @@ type pricingTag = {
 function PricingPlan(props: pricingTag) {
   return (
     <div
-      className={`relative ml-[2.55%] w-[95%] lg:max-w-[350px]  h-[60vh] md:h-[70vh] max-h-[540px] pt-12 pb-5 px-3 bg-white shadow-xl border-2 flex flex-col items-center text-center gap-1 `}
+      className={`relative ml-[2.55%] lg:ml-0 w-[95%] lg:max-w-[350px] xl:w-full xl:max-w-none  h-[60vh] md:h-[70vh] lg:h-[75vh] max-h-[540px] xl:max-h-[650px] pt-12 pb-5 px-3 lg:px-6 bg-white shadow-xl border-2 flex flex-col items-center text-center gap-1 `}
     >
       {props.topSeller === true ? (
         <h1 className="absolute right-0 top-3 px-3 py-1 bg-secondary text-white rounded-l-lg font-semibold text-sm md:text-base lg:text-xl">

@@ -68,7 +68,7 @@ function About() {
             height={30}
             alt="lg"
             src="/assets/images/about/lg.svg"
-            className="w-24"
+            className="w-24 "
           ></Image>
         </li>
         <li className="">
