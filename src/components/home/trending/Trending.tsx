@@ -7,14 +7,14 @@ import ShowSlider from "./ShowSlider";
 function Trending() {
   const [movies, setMovies] = useState<any>([]);
   const [sportsposters, setSportsPosters] = useState<string[]>([
-    "f1.jpg",
-    "jonjones.jpg",
-    "nba-finals.jpg",
-    "tank-davis.jpg",
-    "tennis.jpg",
-    "ucl.jpg",
-    "ufc.jpg",
-    "world-cup.jpg",
+    "f1.svg",
+    "jonjones.svg",
+    "nba-finals.svg",
+    "tank-davis.svg",
+    "tennis.svg",
+    "ucl.svg",
+    "ufc.svg",
+    "world-cup.svg",
   ]);
 
   const discoverMovies = () => {
@@ -54,6 +54,7 @@ function Trending() {
       />
       <ShowSlider
         label="Sports"
+        reverse={true}
         Movies={sportsposters.map((e: any) => {
           return `/assets/images/sports-posters/${e}`;
         })}

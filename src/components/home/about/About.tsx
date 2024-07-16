@@ -76,13 +76,13 @@ function About() {
         <li className="">
           <SiNetflix
             className=" opacity-40  transition-all duration-300 bg-text-black hover:text-red-600 bg-clip-text hover:opacity-100 hover:scale-110"
-            size={120}
+            size={100}
           />
         </li>
         <li className="">
           <IoLogoWindows
             className=" opacity-40  transition-all duration-300 bg-text-black hover:text-primary bg-clip-text hover:opacity-100 hover:scale-110"
-            size={130}
+            size={110}
           />
         </li>
         <li className="">

@@ -3,6 +3,7 @@ import Image from "next/image";
 type sliderProps = {
   Movies: {}[];
   label: string;
+  reverse?: boolean;
 };
 
 function ShowSlider(props: sliderProps) {
@@ -11,7 +12,9 @@ function ShowSlider(props: sliderProps) {
       <h1 className="self-start flex mb-1 lg:mb-3  text-lg md:text-xl xl:text-4xl font-semibold text-black text-opacity-75">
         {props.label}
       </h1>
-      <div className="slide-track">
+      <div
+        className={`${props?.reverse ? "slide-track-reverse" : "slide-track"}`}
+      >
         {props.Movies.map((e, i) => {
           return (
             <div className="slide-item" key={i}>

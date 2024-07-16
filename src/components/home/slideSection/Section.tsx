@@ -55,7 +55,7 @@ function SlideShowSection() {
             width={50}
             height={50}
             alt="TV series poster"
-            src="/assets/images/slideshow/breaking-bad.svg"
+            src="/assets/images/slideshow/movie.svg"
             className="w-full h-auto md:h-full md:w-auto md:object-cover"
           ></Image>
         </li>
@@ -69,7 +69,7 @@ function SlideShowSection() {
             width={50}
             height={50}
             alt="Basketball poster"
-            src="/assets/images/slideshow/stephen-curry.svg"
+            src="/assets/images/slideshow/KD.svg"
             className="w-full h-auto md:h-full md:w-auto md:object-cover"
           ></Image>
         </li>
@@ -83,7 +83,7 @@ function SlideShowSection() {
             width={50}
             height={50}
             alt="Movie poster"
-            src="/assets/images/slideshow/spiderman.svg"
+            src="/assets/images/slideshow/series.svg"
             className="w-full h-auto md:h-full md:w-auto -mt-7 md:mt-0 md:object-cover"
           ></Image>
         </li>

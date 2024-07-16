@@ -175,7 +175,16 @@ body {
   @apply relative flex gap-3 items-center;
   width: calc(var(--slide-width) * 16);
   animation: moviesSlide;
-  animation-duration: 11s;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.slide-track-reverse {
+  @apply relative flex gap-3 items-center;
+  width: calc(var(--slide-width) * 16);
+  animation: moviesSlideReverse;
+  animation-duration: 16s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -193,10 +202,19 @@ body {
   }
 }
 
+@keyframes moviesSlideReverse {
+  from {
+    transform: translateX(calc(var(--slide-width-reverse) * 9));
+  }
+  to {
+    transform: translateX(calc(var(--slide-width-reverse)));
+  }
+}
+
 .slide-item {
   @apply w-[25vw] md:w-[16vw] lg:w-[15vw] h-auto rounded-sm;
 }
 
 .slide-image {
-  @apply w-full h-max;
+  @apply w-full h-max rounded-lg;
 }

@@ -17,7 +17,7 @@ function Faq() {
           height={50}
           alt="exclamation mark"
           src="/assets/images/faq.svg"
-          className="w-[30%] hidden lg:flex max-w-[330px]"
+          className="w-[30%] hidden lg:flex max-w-[380px] xl:w-2/5 xl:max-w-[450]"
         ></Image>
         <ul className="w-full lg:w-3/5 overflow-hidden flex flex-col items-center gap-5 list-none">
           <FaqBlock
