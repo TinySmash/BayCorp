@@ -1,5 +1,10 @@
 import Image from "next/image";
-import { IoIosArrowForward } from "react-icons/io";
+import {
+  IoIosArrowForward,
+  IoLogoWindows,
+  IoLogoAndroid,
+} from "react-icons/io";
+import { SiSamsung, SiAppletv, SiNetflix } from "react-icons/si";
 
 function About() {
   return (
@@ -61,51 +66,36 @@ function About() {
           Local to international content
         </li>
       </ul>
-      <ul className="list-none relative bottom-0 w-full hidden md:flex items-center justify-between xl:justify-evenly  mt-10 xl:mt-16">
+      <ul className="list-none relative bottom-0 w-full hidden lg:flex items-center justify-between xl:justify-evenly  mt-10 xl:mt-16">
         <li className="">
-          <Image
-            width={30}
-            height={30}
-            alt="lg"
-            src="/assets/images/about/lg.svg"
-            className="w-24 "
-          ></Image>
+          <SiAppletv
+            className=" opacity-40  transition-all duration-300 bg-text-black hover:text-secondary bg-clip-text hover:opacity-100 hover:scale-110"
+            size={130}
+          />
         </li>
         <li className="">
-          <Image
-            width={30}
-            height={30}
-            alt="samsung"
-            src="/assets/images/about/samsung.svg"
-            className="w-24"
-          ></Image>
+          <SiNetflix
+            className=" opacity-40  transition-all duration-300 bg-text-black hover:text-red-600 bg-clip-text hover:opacity-100 hover:scale-110"
+            size={120}
+          />
         </li>
         <li className="">
-          <Image
-            width={30}
-            height={30}
-            alt="windows"
-            src="/assets/images/about/windows.svg"
-            className="w-24"
-          ></Image>
+          <IoLogoWindows
+            className=" opacity-40  transition-all duration-300 bg-text-black hover:text-primary bg-clip-text hover:opacity-100 hover:scale-110"
+            size={130}
+          />
         </li>
         <li className="">
-          <Image
-            width={30}
-            height={30}
-            alt="apple"
-            src="/assets/images/about/apple.svg"
-            className="w-16"
-          ></Image>
+          <SiSamsung
+            className=" opacity-40  transition-all duration-300 bg-text-black hover:text-third bg-clip-text hover:opacity-100 hover:scale-110"
+            size={130}
+          />
         </li>
         <li className="">
-          <Image
-            width={30}
-            height={30}
-            alt="android"
-            src="/assets/images/about/android.svg"
-            className="w-24"
-          ></Image>
+          <IoLogoAndroid
+            className=" opacity-40  transition-all duration-300 bg-text-black hover:text-green-500 bg-clip-text hover:opacity-100 hover:scale-110"
+            size={130}
+          />
         </li>
       </ul>
     </section>

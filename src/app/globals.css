@@ -73,6 +73,16 @@ body {
   );
 }
 
+.text-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(56, 100, 255, 0.8),
+    rgba(202, 88, 255, 0.8)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 :root {
   --channel-slide-width: 40vw;
   --channel-slide-width-reverse: -40vw;
