@@ -13,7 +13,7 @@ import PricingPlan from "./Plan";
 function Pricing() {
   return (
     <section
-      className="container-page w-full h-auto min-h-screen sec-container relative text-center"
+      className="container-page w-full h-auto sec-container relative text-center"
       id="pricing"
     >
       <h1 className="text-black font-bold text-2xl md:text-3xl xl:text-5xl xl:mt-14 mb-12 lg:mb-20">

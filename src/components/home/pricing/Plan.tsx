@@ -8,7 +8,7 @@ type pricingTag = {
 function PricingPlan(props: pricingTag) {
   return (
     <div
-      className={`relative ml-[2.55%] lg:ml-0 w-[95%] lg:max-w-[350px] xl:w-full xl:max-w-none  h-[60vh] md:h-[70vh] lg:h-[75vh] max-h-[540px] xl:max-h-[650px] pt-12 pb-5 px-3 lg:px-6 bg-white shadow-xl border-2 flex flex-col items-center text-center gap-1 `}
+      className={`relative ml-[2.55%] lg:ml-0 w-[95%] lg:max-w-[350px] xl:w-full xl:max-w-none h-auto pt-12 pb-5 px-3 lg:px-6 bg-white shadow-xl border-2 flex flex-col items-center text-center gap-2 `}
     >
       {props.topSeller === true ? (
         <h1 className="absolute right-0 top-3 px-3 py-1 bg-secondary text-white rounded-l-lg font-semibold text-sm md:text-base lg:text-xl">
@@ -18,7 +18,7 @@ function PricingPlan(props: pricingTag) {
       <h1 className="text-black text-2xl md:text-4xl font-semibold">
         {props.name}
       </h1>
-      <h2 className="text-third text-3xl md:text-4xl font-bold">
+      <h2 className="text-third text-3xl md:text-4xl font-bold mb-2 -translate-y-2">
         {props.price}$
         {/* <span className="text-lg md:text-xl font-medium">/year</span> */}
       </h2>
@@ -37,7 +37,7 @@ function PricingPlan(props: pricingTag) {
           );
         })}
       </ul>
-      <button className="absolute bottom-8 xl:bottom-5  px-3 py-1 bg-primary rounded-full text-white font-semibold md:text-xl">
+      <button className="relative  px-3 py-1 bg-primary rounded-full text-white font-semibold md:text-xl mt-5 mb-3">
         Get started
       </button>
     </div>

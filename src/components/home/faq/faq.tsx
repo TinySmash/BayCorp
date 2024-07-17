@@ -7,7 +7,7 @@ function Faq() {
   const [openedBlock, setOpenedBlock] = useState<number>(0);
 
   return (
-    <section className="w-full h-auto min-h-screen container-page sec-container flex flex-col items-center">
+    <section className="w-full h-auto container-page sec-container flex flex-col items-center">
       <h1 className="text-black font-bold text-2xl md:text-3xl xl:text-5xl flex items-center gap-1 self-center mb-6">
         FAQs
       </h1>

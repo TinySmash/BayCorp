@@ -23,7 +23,7 @@ body {
 }
 
 .container-page {
-  @apply py-24 md:py-28 xl:py-32 px-8 sm:px-14 md:px-16 lg:px-20;
+  @apply py-10 md:py-12 xl:py-16 px-8 sm:px-14 md:px-16 lg:px-20;
 }
 .sec-container {
   max-width: 1550px;
