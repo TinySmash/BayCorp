@@ -25,7 +25,7 @@ function About() {
         className="w-[90%] max-w-[400px] md:w-2/3 h-auto shadow-xl md:hidden"
       ></Image>
       <div className="flex flex-col md:flex-row md:justify-between gap-4 items-center md:items-start">
-        <article className="flex flex-col gap-4 items-center md:items-start md:w-1/2">
+        <article className="flex flex-col gap-5 items-center md:items-start md:w-1/2">
           <p className="text-xs md:text-sm xl:text-base text-black text-opacity-75">
             We&apos;re all about bringing you the best in entertainment. With
             our subscription, you get access to a vast selection of channels and
@@ -33,39 +33,57 @@ function About() {
             shows. Our service lets you pause, rewind, and record your favorite
             programs, so you never miss a moment.
           </p>
+
+          <ul className="list-none w-full mt-3 md:mt-0 flex flex-col gap-2 text-sm md:text-base lg:text-xl xl:text-2xl ">
+            <li className="flex items-center gap-2 font-semibold text-black">
+              <span className="w-6 h-6 text-lg text-white flex justify-center items-center  bg-gradient-to-br from-primary to-third rounded-full">
+                ✓
+              </span>{" "}
+              Easy to use
+            </li>
+            <li className="flex items-center gap-2 font-semibold text-black">
+              <span className="w-6 h-6 text-lg text-white flex justify-center items-center  bg-gradient-to-br from-primary to-third rounded-full">
+                ✓
+              </span>{" "}
+              Fast & secure service
+            </li>
+            <li className="flex items-center gap-2 font-semibold text-black">
+              <span className="w-6 h-6 text-lg text-white flex justify-center items-center  bg-gradient-to-br from-primary to-third rounded-full">
+                ✓
+              </span>{" "}
+              Local to international content
+            </li>
+          </ul>
           <button className="primary-button text-lg lg:text-xl xl:text-2xl font-semibold flex gap-1 items-center">
             Get started
             <IoIosArrowForward />
           </button>
         </article>
-        <Image
-          width={100}
-          height={50}
-          alt="People watching TV"
-          src="/assets/images/about.svg"
-          className="w-2/5 xl:w-1/3 h-auto shadow-xl hidden md:flex"
-        ></Image>
+        <div className="w-2/5 xl:w-1/3 h-full hidden md:grid grid-cols-9 grid-rows-9 gap-3">
+          <Image
+            width={100}
+            height={50}
+            alt="People watching TV"
+            src="/assets/images/about/about1.svg"
+            className="shadow-xl col-start-2 col-end-6 row-start-1 row-end-5 w-auto h-auto rounded-md"
+          ></Image>
+          <Image
+            width={100}
+            height={50}
+            alt="People watching TV"
+            src="/assets/images/about/about-2.svg"
+            className="shadow-xl col-start-6 col-end-10 row-start-3 row-end-7 w-auto h-auto rounded-md"
+          ></Image>
+          <Image
+            width={100}
+            height={50}
+            alt="People watching TV"
+            src="/assets/images/about/about-3.svg"
+            className="shadow-xl col-start-1 col-end-6 row-start-5 row-end-10 w-auto h-auto rounded-md"
+          ></Image>
+        </div>
       </div>
-      <ul className="list-none w-full mt-3 md:mt-0 flex flex-col gap-2 text-sm md:text-base lg:text-xl xl:text-2xl ">
-        <li className="flex items-center gap-2 font-semibold text-black">
-          <span className="w-6 h-6 text-lg text-white flex justify-center items-center  bg-gradient-to-br from-primary to-third rounded-full">
-            ✓
-          </span>{" "}
-          Easy to use
-        </li>
-        <li className="flex items-center gap-2 font-semibold text-black">
-          <span className="w-6 h-6 text-lg text-white flex justify-center items-center  bg-gradient-to-br from-primary to-third rounded-full">
-            ✓
-          </span>{" "}
-          Fast & secure service
-        </li>
-        <li className="flex items-center gap-2 font-semibold text-black">
-          <span className="w-6 h-6 text-lg text-white flex justify-center items-center  bg-gradient-to-br from-primary to-third rounded-full">
-            ✓
-          </span>{" "}
-          Local to international content
-        </li>
-      </ul>
+
       <ul className="list-none relative bottom-0 w-full hidden lg:flex items-center justify-between xl:justify-evenly  mt-10 xl:mt-16">
         <li className="">
           <SiAppletv
