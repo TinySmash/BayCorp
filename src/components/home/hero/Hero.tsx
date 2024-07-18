@@ -37,7 +37,7 @@ function Hero() {
     <>
       <section className="bg-hero w-full h-screen md:h-[120vh] relative text-center flex flex-col items-center container-page gap-2 md:gap-4">
         <div
-          className={`w-[200vw] transition-all  duration-[3s] h-screen md:h-[120vh] overflow-x-auto absolute left-0 top-0 z-[1-] flex items-center ${
+          className={`w-[200vw] transition-all  duration-[1.7s] h-screen md:h-[120vh] overflow-x-auto absolute left-0 top-0 z-[1-] flex items-center ${
             !isBgSlide ? "-translate-x-[0vw] " : "-translate-x-[100vw] "
           }`}
           // ref={bgRef}
@@ -59,7 +59,7 @@ function Hero() {
             priority
           ></Image>
         </div>
-        <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white z-10 mt-8 md:mt-10 lg:mt-16 xl:mt-20">
+        <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white z-10 mt-12 md:mt-20 lg:mt-28 xl:mt-32">
           Stream Unlimited Entertainment
         </h1>
         <p className="text-xs md:text-sm lg:text-base text-white z-10 ">

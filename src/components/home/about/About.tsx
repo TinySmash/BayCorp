@@ -10,7 +10,7 @@ function About() {
   return (
     <section
       id="about"
-      className="relative w-full h-auto container-page sec-container bg-white flex flex-col items-center md:items-start text-center md:text-start gap-4"
+      className="relative w-full h-auto container-page sec-container bg-white flex flex-col items-start md:items-start md:text-start gap-4"
     >
       <h1 className="text-2xl md:text-3xl lg:text-4xl lg:w-2/3 font-bold text-black md:mb-10">
         <span className="text-primary text-3xl md:text-4xl lg:text-5xl">
@@ -21,15 +21,31 @@ function About() {
         </span>
         premium IPTV subscription
       </h1>
-      <Image
-        width={100}
-        height={50}
-        alt="People watching TV"
-        src="/assets/images/about.svg"
-        className="w-[90%] max-w-[400px] md:w-2/3 h-auto shadow-xl md:hidden"
-      ></Image>
+      <div className="w-full sm:w-2/3 grid md:hidden grid-cols-9 grid-rows-9 gap-3">
+        <Image
+          width={100}
+          height={50}
+          alt="People watching TV"
+          src="/assets/images/about/about1.svg"
+          className="shadow-xl col-start-2 col-end-6 row-start-1 row-end-5 w-auto h-auto rounded-md"
+        ></Image>
+        <Image
+          width={100}
+          height={50}
+          alt="People watching TV"
+          src="/assets/images/about/about-2.svg"
+          className="shadow-xl col-start-6 col-end-10 row-start-3 row-end-7 w-auto h-auto rounded-md"
+        ></Image>
+        <Image
+          width={100}
+          height={50}
+          alt="People watching TV"
+          src="/assets/images/about/about-3.svg"
+          className="shadow-xl col-start-1 col-end-6 row-start-5 row-end-10 w-auto h-auto rounded-md"
+        ></Image>
+      </div>
       <div className="flex flex-col md:flex-row md:justify-between gap-4 items-center md:items-start">
-        <article className="flex flex-col gap-5 items-center md:items-start md:w-1/2">
+        <article className="flex flex-col gap-5 items-start md:items-start md:w-1/2">
           <p className="text-xs md:text-sm xl:text-base text-black text-opacity-75">
             We&apos;re all about bringing you the best in entertainment. With
             our subscription, you get access to a vast selection of channels and

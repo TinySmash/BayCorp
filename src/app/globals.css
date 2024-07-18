@@ -6,9 +6,30 @@
   @apply px-3 py-1 bg-gradient-to-r from-primary to-third rounded-full text-white font-semibold;
 }
 
-.scrollbar-hidden::-webkit-scrollbar {
+/* .scrollbar-hidden::-webkit-scrollbar {
   display: none;
+} */
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  transition: 0.5s all ease-in-out;
 }
+
+::-webkit-scrollbar-track {
+  background: #2a0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #481212;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #ff0000;
+  transition: 0.5s;
+} */
 
 /* Hide scrollbar for IE, Edge add Firefox */
 .scrollbar-hidden {
@@ -112,7 +133,7 @@ body {
 .slider-track {
   width: calc(var(--channel-slide-width) * 16);
   animation: channels;
-  animation-duration: 11s;
+  animation-duration: 16s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   @apply gap-6 md:gap-[48px] lg:gap-16 xl:gap-28 flex flex-nowrap  items-center;
