@@ -9,8 +9,8 @@ import { useEffect, useRef, useState } from "react";
 
 function Hero() {
   const [backgroundImages, setBackgroundImages] = useState([
-    "/assets/images/hero-1.svg",
     "/assets/images/hero-2.svg",
+    "/assets/images/hero-1.svg",
   ]);
 
   // const bgRef = useRef<any>("");
