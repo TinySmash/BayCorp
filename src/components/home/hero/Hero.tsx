@@ -48,6 +48,8 @@ function Hero() {
             alt="movie scene"
             src={backgroundImages?.[0]}
             className="w-[100vw] h-screen md:h-[120vh] object-cover"
+            placeholder="blur"
+            priority
           ></Image>
           <Image
             width={20}
@@ -55,6 +57,8 @@ function Hero() {
             alt="movie scene"
             src={backgroundImages?.[1]}
             className="w-[100vw] h-screen md:h-[120vh] object-cover"
+            placeholder="blur"
+            priority
           ></Image>
         </div>
         <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white z-10 mt-8 md:mt-10 lg:mt-16 xl:mt-20">
