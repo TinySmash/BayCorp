@@ -1,12 +1,17 @@
 import { FaInstagram, FaXTwitter, FaTiktok } from "react-icons/fa6";
+import Image from "next/image";
 
 function Footer() {
   return (
     <footer className="px-8 py-10 bg-black bg-opacity-85 flex flex-col items-center">
       <div className="w-full flex items-center justify-between">
-        <h1 className="font-bold text-xl md:text-2xl xl:text-3xl text-primary">
-          Bay<span className="text-third">Corp</span>
-        </h1>
+        <Image
+          width={20}
+          height={20}
+          alt="logo"
+          src="/assets/images/logo-shape.svg"
+          className="w-7 lg:w-10 h-auto"
+        ></Image>
         <h1 className="hidden md:flex text-base text-opacity-50 text-white">
           YOUR FAVOURITE SHOW IS ONE CLICK AWAY
         </h1>
