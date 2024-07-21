@@ -50,7 +50,17 @@ function Panel() {
           Pricing
         </ReactScroll.Link>
       </nav>
-      <button className="primary-button flex">Get started</button>
+      <ReactScroll.Link
+        onClick={() => {
+          dispatch(toggleNav());
+        }}
+        smooth={true}
+        duration={500}
+        to="pricing"
+        className="primary-button flex"
+      >
+        Get started
+      </ReactScroll.Link>
     </aside>
   );
 }

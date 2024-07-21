@@ -122,9 +122,14 @@ function Navbar() {
             Pricing
           </ReactScroll.Link>
         </nav>
-        <button className="primary-button hidden md:flex text-lg xl:text-xl">
+        <ReactScroll.Link
+          smooth={true}
+          duration={500}
+          to="pricing"
+          className="primary-button hidden md:flex text-lg xl:text-xl cursor-pointer"
+        >
           Get started
-        </button>
+        </ReactScroll.Link>
         <button
           className="md:hidden transition-all duration-700 text-white"
           onClick={() => {
