@@ -14,11 +14,8 @@ function Navbar() {
   const navMenu = useRef<any>(null);
 
   // LOGO ANIMATION
-
-  const [logoSlide, setLogoSlide] = useState<boolean>(false);
-  const [logoIntervalId, setLogoIntervalId] = useState<NodeJS.Timeout | null>(
-    null
-  );
+  const [logoSlide, setLogoSlide] = useState<boolean | null>(null);
+  const logoIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,11 +28,11 @@ function Navbar() {
           "backdrop-blur-sm"
         );
 
-        if (!logoIntervalId) {
+        if (!logoIntervalRef.current) {
           const intervalId = setInterval(() => {
-            setLogoSlide((prev) => !prev);
-          }, 12000);
-          setLogoIntervalId(intervalId);
+            setLogoSlide((prev) => (prev === null ? false : !prev));
+          }, 6000);
+          logoIntervalRef.current = intervalId;
         }
       } else {
         navRef.current?.classList?.replace("bg-white", "bg-transparent");
@@ -46,10 +43,10 @@ function Navbar() {
           "backdrop-blur-none"
         );
 
-        if (logoIntervalId) {
-          clearInterval(logoIntervalId);
-          setLogoIntervalId(null);
-          setLogoSlide(false);
+        if (logoIntervalRef.current) {
+          clearInterval(logoIntervalRef.current);
+          logoIntervalRef.current = null;
+          setLogoSlide(null);
         }
       }
     };
@@ -57,38 +54,42 @@ function Navbar() {
     window.addEventListener("scroll", handleScroll);
 
     return () => {
-      if (logoIntervalId) {
-        clearInterval(logoIntervalId);
+      if (logoIntervalRef.current) {
+        clearInterval(logoIntervalRef.current);
       }
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [logoIntervalId]);
+  }, []);
 
   return (
     <>
       <header
-        className="fixed bg-transparent backdrop-blur-none xl:left-1/2 xl:-translate-x-1/2 w-full h-auto px-5 md:px-10 xl:px-16 py-4 xl:py-5 flex justify-between items-center z-[999] bg-opacity-85 transition-all duration-[700ms]"
+        className="fixed bg-transparent backdrop-blur-none xl:left-1/2 xl:-translate-x-1/2 w-full h-auto px-5 md:px-10 xl:px-16 py-2 md:py-3 xl:py-4 flex justify-between items-center z-[999] bg-opacity-85 transition-all duration-[700ms]"
         ref={navRef}
       >
         <div className="w-auto h-auto max-h-8 md:max-h-12 lg:max-h-14 relative overflow-y-hidden">
           <div
-            className={`h-auto flex flex-col items-center gap-8 transition-all duration-1000 ${
+            className={`h-auto flex flex-col items-start lg:items-center gap-8 transition-all duration-1000 ${
               logoSlide ? "-translate-y-[70%]" : "-translate-y-0"
             }`}
           >
             <Image
               width={20}
               height={20}
-              src="/assets/images/logo-shape.svg"
+              src={
+                logoSlide == null
+                  ? "/assets/images/logo-white.svg"
+                  : "/assets/images/logo-shape.svg"
+              }
               alt="Logo"
-              className="w-20 h-auto max-h-8 md:max-h-12 lg:max-h-14"
+              className="w-auto h-8 md:h-12 lg:h-14"
             ></Image>
             <Image
               width={20}
               height={20}
               src="/assets/images/logo-text.svg"
               alt="Logo"
-              className="w-20 h-auto max-h-8 md:max-h-12 lg:max-h-14"
+              className="w-20 md:w-24 xl:w-28 h-auto max-h-8 md:max-h-12 lg:max-h-14"
             ></Image>
           </div>
         </div>
