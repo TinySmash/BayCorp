@@ -4,7 +4,8 @@ import {
   IoLogoWindows,
   IoLogoAndroid,
 } from "react-icons/io";
-import { SiSamsung, SiAppletv, SiNetflix } from "react-icons/si";
+import { SiSamsung, SiNetflix } from "react-icons/si";
+import { FaApple } from "react-icons/fa6";
 
 function About() {
   return (
@@ -106,7 +107,7 @@ function About() {
 
       <ul className="list-none relative bottom-0 w-full hidden lg:flex items-center justify-between xl:justify-evenly  mt-10 xl:mt-16">
         <li className="">
-          <SiAppletv
+          <FaApple
             className=" opacity-40  transition-all duration-300 bg-text-black hover:text-secondary bg-clip-text hover:opacity-100 hover:scale-110"
             size={130}
           />
