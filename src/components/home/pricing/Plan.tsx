@@ -7,6 +7,7 @@ type pricingTag = {
   price: number;
   features: string[];
   topSeller?: boolean;
+  links: [string, string, string];
 };
 
 function PricingPlan(props: pricingTag) {
@@ -23,7 +24,7 @@ function PricingPlan(props: pricingTag) {
         {props.name}
       </h1>
       <h2 className="text-third text-3xl md:text-4xl font-bold mb-2 -translate-y-2">
-        {props.price}$
+        {props.price}€
         {/* <span className="text-lg md:text-xl font-medium">/year</span> */}
       </h2>
       <ul className="list-none w-full md:mt-8 flex flex-col gap-2 text-sm md:text-base lg:text-xl xl:text-2xl ">
@@ -45,7 +46,7 @@ function PricingPlan(props: pricingTag) {
         <a
           className="relative  px-3 py-1 bg-primary rounded-full text-white font-semibold md:text-xl lg:text-lg "
           target="_blank"
-          href=""
+          href={props.links?.[0]}
         >
           Get started
         </a>
@@ -65,13 +66,13 @@ function PricingPlan(props: pricingTag) {
             }`}
           >
             <a
-              href=""
+              href={props.links?.[1]}
               className="px-2 py-1 text-black bg-white bg-opacity-10 hover:bg-black hover:bg-opacity-10 text-[10px] lg:text-sm lg:font-medium whitespace-nowrap"
             >
               2 devices
             </a>
             <a
-              href=""
+              href={props.links?.[2]}
               className="px-2 py-1 text-black bg-white bg-opacity-10 hover:bg-black hover:bg-opacity-10 text-[10px] lg:text-sm lg:font-medium whitespace-nowrap"
             >
               3 devices

@@ -44,8 +44,13 @@ function Pricing() {
         >
           <SwiperSlide>
             <PricingPlan
+              links={[
+                "https://baycorp.digital/index.php/step/checkout-3/",
+                "https://baycorp.digital/index.php/step/checkout-3-4/",
+                "https://baycorp.digital/index.php/step/checkout-3-3/",
+              ]}
               name="1 month"
-              price={10}
+              price={12}
               features={[
                 "+70,000 Channels, Movies and Series",
                 "High Quality 4K FHD HD",
@@ -58,6 +63,11 @@ function Pricing() {
           </SwiperSlide>
           <SwiperSlide>
             <PricingPlan
+              links={[
+                "https://baycorp.digital/index.php/step/checkout-3-2/",
+                "https://baycorp.digital/index.php/step/checkout-3-2-3/",
+                "https://baycorp.digital/index.php/step/checkout-3-2-3-2/",
+              ]}
               name="3 months"
               price={20}
               features={[
@@ -72,6 +82,11 @@ function Pricing() {
           </SwiperSlide>
           <SwiperSlide>
             <PricingPlan
+              links={[
+                "https://baycorp.digital/index.php/step/checkout-3-2-2/",
+                "https://baycorp.digital/index.php/step/checkout-3-2-2-3/",
+                "https://baycorp.digital/index.php/step/checkout-3-2-2-4/",
+              ]}
               name="6 months"
               price={30}
               features={[
@@ -86,6 +101,11 @@ function Pricing() {
           </SwiperSlide>
           <SwiperSlide>
             <PricingPlan
+              links={[
+                "https://baycorp.digital/index.php/step/checkout-3-2-2-2/",
+                "https://baycorp.digital/index.php/step/checkout-3-2-2-2-2/",
+                "https://baycorp.digital/index.php/step/checkout-3-2-2-2-2-2/",
+              ]}
               name="12 months"
               price={45}
               features={[
@@ -106,8 +126,13 @@ function Pricing() {
       </div>
       <div className="relative w-full h-auto hidden lg:flex items-center justify-center">
         <PricingPlan
+          links={[
+            "https://baycorp.digital/index.php/step/checkout-3/",
+            "https://baycorp.digital/index.php/step/checkout-3-4/",
+            "https://baycorp.digital/index.php/step/checkout-3-3/",
+          ]}
           name="1 month"
-          price={10}
+          price={12}
           features={[
             "+70,000 Channels, Movies and Series",
             "High Quality 4K FHD HD",
@@ -118,7 +143,12 @@ function Pricing() {
           ]}
         />
         <PricingPlan
-          name="2 months"
+          links={[
+            "https://baycorp.digital/index.php/step/checkout-3-2/",
+            "https://baycorp.digital/index.php/step/checkout-3-2-3/",
+            "https://baycorp.digital/index.php/step/checkout-3-2-3-2/",
+          ]}
+          name="3 months"
           price={20}
           features={[
             "+70,000 Channels, Movies and Series",
@@ -130,6 +160,11 @@ function Pricing() {
           ]}
         />
         <PricingPlan
+          links={[
+            "https://baycorp.digital/index.php/step/checkout-3-2-2/",
+            "https://baycorp.digital/index.php/step/checkout-3-2-2-3/",
+            "https://baycorp.digital/index.php/step/checkout-3-2-2-4/",
+          ]}
           name="6 months"
           price={30}
           features={[
@@ -142,6 +177,11 @@ function Pricing() {
           ]}
         />
         <PricingPlan
+          links={[
+            "https://baycorp.digital/index.php/step/checkout-3-2-2-2/",
+            "https://baycorp.digital/index.php/step/checkout-3-2-2-2-2/",
+            "https://baycorp.digital/index.php/step/checkout-3-2-2-2-2-2/",
+          ]}
           name="12 months"
           price={45}
           features={[

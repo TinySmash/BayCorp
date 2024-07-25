@@ -5,7 +5,8 @@ import HeroSlider from "./Slider";
 import { HiOutlineGlobeEuropeAfrica } from "react-icons/hi2";
 import { CgScreen } from "react-icons/cg";
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
+import * as ReactScroll from "react-scroll";
 
 function Hero() {
   const [backgroundImages, setBackgroundImages] = useState([
@@ -66,9 +67,14 @@ function Hero() {
           Enjoy Thousands of Channels, On-Demand Content, and Crystal-Clear
           Quality
         </p>
-        <button className="primary-button z-10 mt-3 mb-16 md:text-xl lg:text-2xl">
+        <ReactScroll.Link
+          smooth={true}
+          duration={500}
+          to="pricing"
+          className="primary-button z-10 mt-3 mb-16 md:text-xl lg:text-2xl"
+        >
           Get started
-        </button>
+        </ReactScroll.Link>
         <HeroSlider />
         <ul className="w-auto h-auto bg-alter-gradient hidden md:flex items-center gap-16 z-10 rounded-lg px-12 py-4 lg:py-6 lg:px-20">
           <li
