@@ -32,11 +32,11 @@ function Refund() {
         <h1>Comment demander un remboursement ?</h1>
         <p>
           Veuillez noter votre numéro de commande de transaction avec le sujet :
-          "Demande et remboursement" et décrire dans votre envoyez un e-mail aux
-          problèmes auxquels vous êtes confronté et à la raison de cette
-          demande. Dans certains cas, vous devrez peut-être nous fournir avec
-          des preuves, et nous vous enverrons également des preuves de notre
-          travail et des choses que nous avons remarquées pour mieux vous
+          &quot;Demande et remboursement&quot; et décrire dans votre envoyez un
+          e-mail aux problèmes auxquels vous êtes confronté et à la raison de
+          cette demande. Dans certains cas, vous devrez peut-être nous fournir
+          avec des preuves, et nous vous enverrons également des preuves de
+          notre travail et des choses que nous avons remarquées pour mieux vous
           expliquer notre point de vue et notre décision de manière plus
           détaillée et plus transparente.
         </p>
