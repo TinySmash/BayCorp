@@ -25,7 +25,7 @@ function SlideShowSection() {
   return (
     <section className="relative w-full h-screen bg-black container-page flex flex-col items-center justify-center gap-4 lg:gap-14">
       <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white text-center md:mb-8">
-        Watch your favourite events live
+        Regardez vos événements préférés en direct
       </h1>
       <ul
         className="list-none w-full h-max flex flex-1 flex-col md:flex-row gap-5 lg:gap-8 xl:gap-12 lg:px-8 items-center md:items-start md:justify-between xl:justify-center"

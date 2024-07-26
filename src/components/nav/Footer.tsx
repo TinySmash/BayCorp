@@ -15,7 +15,7 @@ function Footer() {
           className="w-7 lg:w-10 h-auto"
         ></Image>
         <h1 className="hidden md:flex text-base text-opacity-50 text-white">
-          YOUR FAVOURITE SHOW IS ONE CLICK AWAY
+          VOTRE ÉMISSION PRÉFÉRÉE EST À UN CLIC
         </h1>
         <nav className="flex gap-2 text-white">
           <a
@@ -44,7 +44,7 @@ function Footer() {
       <div className="flex flex-wrap md:flex-nowrap md:justify-between w-full mt-10 ">
         <div className="flex flex-col gap-1 w-full md:w-fit items-start">
           <h3 className="text-white font-medium text-xl lg:text-3xl">
-            Send us an email
+            Envoyez-nous un e-mail
           </h3>
           <h5 className="text-white text-sm lg:text-base">
             teambay@baycorp.digital
@@ -56,7 +56,7 @@ function Footer() {
         </div>
         <div className="mt-8 md:mt-0">
           <h3 className="text-white font-medium text-xl lg:text-2xl">
-            Payment methods
+            Méthodes de payement
           </h3>
           <ul className="list-none flex gap-2 mt-1">
             <li className="w-10 h-6 bg-white rounded-sm flex items-center justify-center">
@@ -94,17 +94,17 @@ function Footer() {
       </div>
       <div className="w-full flex gap-3 flex-col md:flex-row md:justify-between p-2 md:pt-4 border-t border-white items-center mt-10">
         <h1 className="font-medium text-white text-sm text-center lg:text-base xl:text-lg">
-          © 2024 All rights reserved by Bay IPTV
+          © Tous droits réservés par Bay IPTV
         </h1>
         <ul className="flex gap-7 list-disc  text-[10px] md:text-sm lg:text-lg mt-5 md:mt-0">
           <li className="list-none text-white hover:text-gray-400">
-            <Link href="/terms">Terms and conditions</Link>
+            <Link href="/terms">Termes et conditions</Link>
           </li>
           <li className="text-white hover:text-gray-400">
-            <Link href="/refund-policy">Refund policy</Link>
+            <Link href="/refund-policy">Politique de remboursementy</Link>
           </li>
           <li className="text-white hover:text-gray-400">
-            <Link href="/privacy-policy">Pricacy policy</Link>
+            <Link href="/privacy-policy">Politique de confidentialité</Link>
           </li>
         </ul>
       </div>

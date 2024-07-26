@@ -44,10 +44,10 @@ function Trending() {
     >
       <h1 className="text-black font-bold text-2xl md:text-3xl xl:text-5xl flex items-center gap-1 self-center mb-6">
         <RiFireLine className="text-black text-2xl md:text-3xl xl:text-5xl" />
-        Trending
+        Tendances
       </h1>
       <ShowSlider
-        label="Movies & Series"
+        label="Films et series"
         Movies={movies.slice(0, 8).map((e: any) => {
           return `https://image.tmdb.org/t/p/w500${e}`;
         })}

@@ -22,20 +22,20 @@ function Faq() {
         <ul className="w-full lg:w-3/5 overflow-hidden flex flex-col items-center gap-5 list-none">
           <FaqBlock
             isOpened={true}
-            question="How to set up IPTV on my device?"
-            answer="It is quite simple to connect IPTV. Follow the installation tutorial page , chat with us or send us an email. Our agents will help you to set it up on your device"
+            question="Comment configurer l'IPTV sur mon appareil ?"
+            answer="Il est assez simple de connecter l'IPTV. Suivez la page de tutoriel d'installation, discutez avec nous ou envoyez-nous un e-mail. Nos agents vous aideront à le configurer sur votre appareil"
           />
           <FaqBlock
-            question="How long will it take to receive IPTV login information?"
-            answer="We tend to text you within 5 minutes to 1 hour of purchase to coordinate setting up your order"
+            question="Combien de temps faudra-t-il pour recevoir les informations de connexion IPTV ?"
+            answer="Nous avons tendance à vous envoyer un message dans les 5 minutes à 1 heure après l'achat pour coordonner la mise en place de votre commande"
           />
           <FaqBlock
-            question="What devices does IPTV support?"
-            answer="Our IPTV server supports all TV boxes: Android, Smart TV, iOS, Windows and Mac OS, Mag Box, Firestick, and all devices can be supported upon request"
+            question="Quels appareils sont compatibles avec l'IPTV ?"
+            answer="Notre serveur IPTV prend en charge tous les boîtiers TV : Android, Smart TV, iOS, Windows et Mac OS, Mag Box, Firestick, et tous les appareils peuvent être pris en charge sur demande"
           />
           <FaqBlock
-            question="What content do they provide?"
-            answer="We offer a wide range of European, Spanish, Latin, Irish, British, American and Asian channels, movies and TV shows in 4K / FHD / HD quality"
+            question="Quel contenu fournissent-ils ?"
+            answer="Nous proposons une large gamme de chaînes européennes, espagnoles, latino-américaines, irlandaises, britanniques, américaines et asiatiques, ainsi que des films et des émissions de télévision en qualité 4K / FHD / HD"
           />
           {/* <FaqBlock
             question="What Sets Us Apart from Traditional services?"

@@ -17,7 +17,7 @@ function Pricing() {
       id="pricing"
     >
       <h1 className="text-black font-bold text-2xl md:text-3xl xl:text-5xl xl:mt-14 mb-12 lg:mb-20">
-        Choose your plan
+        Choisissez votre forfait
       </h1>
       <div className="relative lg:hidden">
         <Swiper
@@ -49,15 +49,15 @@ function Pricing() {
                 "https://baycorp.digital/index.php/step/checkout-3-4/",
                 "https://baycorp.digital/index.php/step/checkout-3-3/",
               ]}
-              name="1 month"
+              name="1 mois"
               price={12}
               features={[
-                "+70,000 Channels, Movies and Series",
-                "High Quality 4K FHD HD",
-                "No Freezing",
-                "All devices are supported",
-                "24/7 Support",
-                "Always Available Server",
+                "+70 000 chaînes, films et séries",
+                "Qualité haute définition 4K FHD HD",
+                "Pas de coupures",
+                "Tous les appareils sont compatibles",
+                "Support 24/7",
+                "Serveur toujours disponible",
               ]}
             />
           </SwiperSlide>
@@ -68,15 +68,15 @@ function Pricing() {
                 "https://baycorp.digital/index.php/step/checkout-3-2-3/",
                 "https://baycorp.digital/index.php/step/checkout-3-2-3-2/",
               ]}
-              name="3 months"
+              name="3 mois"
               price={20}
               features={[
-                "+70,000 Channels, Movies and Series",
-                "High Quality 4K FHD HD",
-                "No Freezing",
-                "All devices are supported",
-                "24/7 Support",
-                "Always Available Server",
+                "+70 000 chaînes, films et séries",
+                "Qualité haute définition 4K FHD HD",
+                "Pas de coupures",
+                "Tous les appareils sont compatibles",
+                "Support 24/7",
+                "Serveur toujours disponible",
               ]}
             />
           </SwiperSlide>
@@ -87,15 +87,15 @@ function Pricing() {
                 "https://baycorp.digital/index.php/step/checkout-3-2-2-3/",
                 "https://baycorp.digital/index.php/step/checkout-3-2-2-4/",
               ]}
-              name="6 months"
+              name="6 mois"
               price={30}
               features={[
-                "+70,000 Channels, Movies and Series",
-                "High Quality 4K FHD HD",
-                "No Freezing",
-                "All devices are supported",
-                "24/7 Support",
-                "Always Available Server",
+                "+70 000 chaînes, films et séries",
+                "Qualité haute définition 4K FHD HD",
+                "Pas de coupures",
+                "Tous les appareils sont compatibles",
+                "Support 24/7",
+                "Serveur toujours disponible",
               ]}
             />
           </SwiperSlide>
@@ -106,15 +106,15 @@ function Pricing() {
                 "https://baycorp.digital/index.php/step/checkout-3-2-2-2-2/",
                 "https://baycorp.digital/index.php/step/checkout-3-2-2-2-2-2/",
               ]}
-              name="12 months"
+              name="12 mois"
               price={45}
               features={[
-                "+70,000 Channels, Movies and Series",
-                "High Quality 4K FHD HD",
-                "No Freezing",
-                "All devices are supported",
-                "24/7 Support",
-                "Always Available Server",
+                "+70 000 chaînes, films et séries",
+                "Qualité haute définition 4K FHD HD",
+                "Pas de coupures",
+                "Tous les appareils sont compatibles",
+                "Support 24/7",
+                "Serveur toujours disponible",
               ]}
               topSeller={true}
             />
@@ -131,15 +131,15 @@ function Pricing() {
             "https://baycorp.digital/index.php/step/checkout-3-4/",
             "https://baycorp.digital/index.php/step/checkout-3-3/",
           ]}
-          name="1 month"
+          name="1 mois"
           price={12}
           features={[
-            "+70,000 Channels, Movies and Series",
-            "High Quality 4K FHD HD",
-            "No Freezing",
-            "All devices are supported",
-            "24/7 Support",
-            "Always Available Server",
+            "+70 000 chaînes, films et séries",
+            "Qualité haute définition 4K FHD HD",
+            "Pas de coupures",
+            "Tous les appareils sont compatibles",
+            "Support 24/7",
+            "Serveur toujours disponible",
           ]}
         />
         <PricingPlan
@@ -148,15 +148,15 @@ function Pricing() {
             "https://baycorp.digital/index.php/step/checkout-3-2-3/",
             "https://baycorp.digital/index.php/step/checkout-3-2-3-2/",
           ]}
-          name="3 months"
+          name="3 mois"
           price={20}
           features={[
-            "+70,000 Channels, Movies and Series",
-            "High Quality 4K FHD HD",
-            "No Freezing",
-            "All devices are supported",
-            "24/7 Support",
-            "Always Available Server",
+            "+70 000 chaînes, films et séries",
+            "Qualité haute définition 4K FHD HD",
+            "Pas de coupures",
+            "Tous les appareils sont compatibles",
+            "Support 24/7",
+            "Serveur toujours disponible",
           ]}
         />
         <PricingPlan
@@ -165,15 +165,15 @@ function Pricing() {
             "https://baycorp.digital/index.php/step/checkout-3-2-2-3/",
             "https://baycorp.digital/index.php/step/checkout-3-2-2-4/",
           ]}
-          name="6 months"
+          name="6 mois"
           price={30}
           features={[
-            "+70,000 Channels, Movies and Series",
-            "High Quality 4K FHD HD",
-            "No Freezing",
-            "All devices are supported",
-            "24/7 Support",
-            "Always Available Server",
+            "+70 000 chaînes, films et séries",
+            "Qualité haute définition 4K FHD HD",
+            "Pas de coupures",
+            "Tous les appareils sont compatibles",
+            "Support 24/7",
+            "Serveur toujours disponible",
           ]}
         />
         <PricingPlan
@@ -182,15 +182,15 @@ function Pricing() {
             "https://baycorp.digital/index.php/step/checkout-3-2-2-2-2/",
             "https://baycorp.digital/index.php/step/checkout-3-2-2-2-2-2/",
           ]}
-          name="12 months"
+          name="12 mois"
           price={45}
           features={[
-            "+70,000 Channels, Movies and Series",
-            "High Quality 4K FHD HD",
-            "No Freezing",
-            "All devices are supported",
-            "24/7 Support",
-            "Always Available Server",
+            "+70 000 chaînes, films et séries",
+            "Qualité haute définition 4K FHD HD",
+            "Pas de coupures",
+            "Tous les appareils sont compatibles",
+            "Support 24/7",
+            "Serveur toujours disponible",
           ]}
           topSeller={true}
         />

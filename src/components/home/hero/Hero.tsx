@@ -61,11 +61,11 @@ function Hero() {
           ></Image>
         </div>
         <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white z-10 mt-12 md:mt-20 lg:mt-28 xl:mt-32">
-          Stream Unlimited Entertainment
+          Streaming de divertissement illimité
         </h1>
         <p className="text-xs md:text-sm lg:text-base text-white z-10 ">
-          Enjoy Thousands of Channels, On-Demand Content, and Crystal-Clear
-          Quality
+          Profitez de milliers de chaînes, de contenu à la demande et d&apos;une
+          qualité d&apos;image exceptionnelle
         </p>
         <ReactScroll.Link
           smooth={true}
@@ -73,7 +73,7 @@ function Hero() {
           to="pricing"
           className="primary-button z-10 mt-3 mb-16 md:text-xl lg:text-2xl"
         >
-          Get started
+          Commencer
         </ReactScroll.Link>
         <HeroSlider />
         <ul className="w-auto h-auto bg-alter-gradient hidden md:flex items-center gap-16 z-10 rounded-lg px-12 py-4 lg:py-6 lg:px-20">

@@ -103,7 +103,7 @@ function Navbar() {
             to="about"
             className="hover:cursor-pointer"
           >
-            About
+            À propos
           </ReactScroll.Link>
           <ReactScroll.Link
             smooth={true}
@@ -111,7 +111,7 @@ function Navbar() {
             to="trending"
             className="hover:cursor-pointer"
           >
-            Trending
+            Tendence
           </ReactScroll.Link>
           <ReactScroll.Link
             smooth={true}
@@ -119,7 +119,7 @@ function Navbar() {
             to="pricing"
             className="hover:cursor-pointer"
           >
-            Pricing
+            Prix
           </ReactScroll.Link>
         </nav>
         <ReactScroll.Link
@@ -128,7 +128,7 @@ function Navbar() {
           to="pricing"
           className="primary-button hidden md:flex text-lg xl:text-xl cursor-pointer"
         >
-          Get started
+          Commencer
         </ReactScroll.Link>
         <button
           className="md:hidden transition-all duration-700 text-white"

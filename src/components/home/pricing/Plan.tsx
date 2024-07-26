@@ -48,7 +48,7 @@ function PricingPlan(props: pricingTag) {
           target="_blank"
           href={props.links?.[0]}
         >
-          Get started
+          Commencer
         </a>
         <div
           className="relative rounded-full bg-gradient-to-br from-primary to-secondary p-2 md:p-[10px] cursor-pointer"
@@ -69,13 +69,13 @@ function PricingPlan(props: pricingTag) {
               href={props.links?.[1]}
               className="px-2 py-1 text-black bg-white bg-opacity-10 hover:bg-black hover:bg-opacity-10 text-[10px] lg:text-sm lg:font-medium whitespace-nowrap"
             >
-              2 devices
+              2 appareils
             </a>
             <a
               href={props.links?.[2]}
               className="px-2 py-1 text-black bg-white bg-opacity-10 hover:bg-black hover:bg-opacity-10 text-[10px] lg:text-sm lg:font-medium whitespace-nowrap"
             >
-              3 devices
+              3 appareils
             </a>
           </div>
         </div>

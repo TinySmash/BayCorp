@@ -25,7 +25,7 @@ function Panel() {
           duration={500}
           className="transition-all cursor-pointer"
         >
-          About
+          À propos
         </ReactScroll.Link>
         <ReactScroll.Link
           onClick={() => {
@@ -36,7 +36,7 @@ function Panel() {
           duration={500}
           className="transition-all cursor-pointer"
         >
-          Trending
+          Tendence
         </ReactScroll.Link>
         <ReactScroll.Link
           onClick={() => {
@@ -47,7 +47,7 @@ function Panel() {
           duration={500}
           className="transition-all cursor-pointer"
         >
-          Pricing
+          Prix
         </ReactScroll.Link>
       </nav>
       <ReactScroll.Link
@@ -59,7 +59,7 @@ function Panel() {
         to="pricing"
         className="primary-button flex"
       >
-        Get started
+        Commencer
       </ReactScroll.Link>
     </aside>
   );

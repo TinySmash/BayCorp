@@ -14,13 +14,13 @@ function About() {
       className="relative w-full h-auto container-page sec-container bg-white flex flex-col items-start md:items-start md:text-start gap-4"
     >
       <h1 className="text-2xl md:text-3xl lg:text-4xl lg:w-2/3 font-bold text-black md:mb-10">
+        Abonnement IPTV haut de gamme par{" "}
         <span className="text-primary text-3xl md:text-4xl lg:text-5xl">
           Bay
         </span>
         <span className="text-third text-xl md:text-2xl lg:text-3xl">
           IPTV{" "}
         </span>
-        premium IPTV subscription
       </h1>
       <div className="w-full sm:w-2/3 grid md:hidden grid-cols-9 grid-rows-9 gap-3">
         <Image
@@ -48,11 +48,13 @@ function About() {
       <div className="flex flex-col md:flex-row md:justify-between gap-4 items-center md:items-start">
         <article className="flex flex-col gap-5 items-start md:items-start md:w-1/2">
           <p className="text-xs md:text-sm xl:text-base text-black text-opacity-75">
-            We&apos;re all about bringing you the best in entertainment. With
-            our subscription, you get access to a vast selection of channels and
-            on-demand content, Whether you&apos;re into sports, movies, or TV
-            shows. Our service lets you pause, rewind, and record your favorite
-            programs, so you never miss a moment.
+            Nous nous engageons à vous offrir le meilleur du divertissement
+            IPTV. Avec notre abonnement IPTV, vous accédez à une vaste sélection
+            de chaînes et de contenu à la demande, que vous soyez passionné de
+            sports, de films ou de séries télévisées. Notre service IPTV vous
+            permet de mettre en pause, de revenir en arrière et
+            d&apos;enregistrer vos programmes préférés, afin que vous ne
+            manquiez jamais un instant
           </p>
 
           <ul className="list-none w-full mt-3 md:mt-0 flex flex-col gap-2 text-sm md:text-base lg:text-xl xl:text-2xl ">
@@ -60,23 +62,23 @@ function About() {
               <span className="w-6 h-6 text-lg text-white flex justify-center items-center  bg-gradient-to-br from-primary to-third rounded-full">
                 ✓
               </span>{" "}
-              Easy to use
+              Facile à utiliser
             </li>
             <li className="flex items-center gap-2 font-semibold text-black">
               <span className="w-6 h-6 text-lg text-white flex justify-center items-center  bg-gradient-to-br from-primary to-third rounded-full">
                 ✓
               </span>{" "}
-              Fast & secure service
+              Service rapide et sécurisé
             </li>
             <li className="flex items-center gap-2 font-semibold text-black">
               <span className="w-6 h-6 text-lg text-white flex justify-center items-center  bg-gradient-to-br from-primary to-third rounded-full">
                 ✓
               </span>{" "}
-              Local to international content
+              Contenu local et international
             </li>
           </ul>
           <button className="primary-button text-lg lg:text-xl xl:text-2xl font-semibold flex gap-1 items-center">
-            Get started
+            Commencer
             <IoIosArrowForward />
           </button>
         </article>
