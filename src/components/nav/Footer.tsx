@@ -1,6 +1,7 @@
 import { FaInstagram, FaXTwitter, FaTiktok } from "react-icons/fa6";
 import { MdPhone } from "react-icons/md";
 import Image from "next/image";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -97,13 +98,13 @@ function Footer() {
         </h1>
         <ul className="flex gap-7 list-disc  text-[10px] md:text-sm lg:text-lg mt-5 md:mt-0">
           <li className="list-none text-white hover:text-gray-400">
-            <a href="">Terms and conditions</a>
+            <Link href="/terms">Terms and conditions</Link>
           </li>
           <li className="text-white hover:text-gray-400">
-            <a href="">Refund policy</a>
+            <Link href="/refund-policy">Refund policy</Link>
           </li>
           <li className="text-white hover:text-gray-400">
-            <a href="">Pricacy policy</a>
+            <Link href="/privacy-policy">Pricacy policy</Link>
           </li>
         </ul>
       </div>
