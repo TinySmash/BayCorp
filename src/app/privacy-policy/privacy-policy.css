@@ -29,15 +29,6 @@ ul {
   padding-left: 20px;
 }
 
-a {
-  color: #0056b3;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 .email-link {
   color: rgb(108, 23, 219);
 

@@ -41,7 +41,7 @@ function Footer() {
           </a>
         </nav>
       </div>
-      <div className="flex flex-wrap md:flex-nowrap md:justify-between w-full mt-10">
+      <div className="flex flex-wrap md:flex-nowrap md:justify-between w-full mt-10 ">
         <div className="flex flex-col gap-1 w-full md:w-fit items-start">
           <h3 className="text-white font-medium text-xl lg:text-3xl">
             Send us an email
@@ -54,7 +54,7 @@ function Footer() {
             <h1 className="text-white lg:text-xl">+33 758-791697</h1>
           </div>
         </div>
-        <div className="mt-8">
+        <div className="mt-8 md:mt-0">
           <h3 className="text-white font-medium text-xl lg:text-2xl">
             Payment methods
           </h3>
