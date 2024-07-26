@@ -61,12 +61,12 @@ function Terms() {
           accords : « Client », « Vous » et « Votre » font référence à vous, la
           personne accédant à ce site Web et conforme à les termes et conditions
           de la Société. « La Société », « Nous », « Notre » et « Notre » font
-          référence à notre Société. "Faire la fête", « Parties » ou « Nous »
-          désigne à la fois le Client et nous. Tous les termes font référence à
-          l&apos;offre, à l&apos;acceptation et contrepartie du paiement
-          nécessaire pour entreprendre le processus de notre assistance au
-          Client dans les meilleurs délais manière appropriée pour répondre aux
-          besoins du Client en ce qui concerne la fourniture des services
+          référence à notre Société. &quot;Faire la fête&quot;, « Parties » ou «
+          Nous » désigne à la fois le Client et nous. Tous les termes font
+          référence à l&apos;offre, à l&apos;acceptation et contrepartie du
+          paiement nécessaire pour entreprendre le processus de notre assistance
+          au Client dans les meilleurs délais manière appropriée pour répondre
+          aux besoins du Client en ce qui concerne la fourniture des services
           déclarés par la Société, en conformément à la loi en vigueur en
           Espagne. Toute utilisation de la terminologie ci-dessus ou
           d&apos;autres mots au singulier, pluriel, majuscule et/ou il/elle ou

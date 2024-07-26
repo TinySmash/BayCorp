@@ -71,8 +71,8 @@ const Privacy = () => {
           <li>
             <p>
               <strong>Société</strong> (désignée par « la Société », « Nous », «
-              Notre »). ou "Notre" dans le présent accord) fait référence à
-              IptvBay.
+              Notre »). ou &quot;Notre&quot; dans le présent accord) fait
+              référence à IptvBay.
             </p>
           </li>
           <li>
@@ -233,11 +233,11 @@ const Privacy = () => {
           </li>
         </ul>
         <p>
-          Les cookies peuvent être « persistants » ou "Séance" Biscuits. Les
-          cookies persistants restent sur votre compte personnel ordinateur ou
-          appareil mobile lorsque vous vous déconnectez, tandis que les cookies
-          de session sont supprimés dès que vous fermez votre site Web.
-          navigateur. En savoir plus sur les cookies sur le
+          Les cookies peuvent être « persistants » ou &quot;Séance&quot;
+          Biscuits. Les cookies persistants restent sur votre compte personnel
+          ordinateur ou appareil mobile lorsque vous vous déconnectez, tandis
+          que les cookies de session sont supprimés dès que vous fermez votre
+          site Web. navigateur. En savoir plus sur les cookies sur le
           <a
             href="https://www.freeprivacypolicy.com/blog/sample-privacy-policy-template/#Use_Of_Cookies_And_Tracking"
             target="_blank"
