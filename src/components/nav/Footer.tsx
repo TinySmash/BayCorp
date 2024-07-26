@@ -19,21 +19,21 @@ function Footer() {
         </h1>
         <nav className="flex gap-2 text-white">
           <a
-            href="https://tiktok.com/@webt5002"
+            href="https://tiktok.com"
             target="_blank"
             className="w-8 h-8 shadow-md border-black rounded-full flex items-center justify-center bg-antiflash-white"
           >
             <FaTiktok className="text-xl lg:text-2xl" />
           </a>
           <a
-            href="https://www.instagram.com/webt5002"
+            href="https://www.instagram.com"
             target="_blank"
             className="w-8 h-8 shadow-md border-black rounded-full flex items-center justify-center bg-antiflash-white"
           >
             <FaInstagram className="text-xl lg:text-2xl" />
           </a>
           <a
-            href="https://twitter.com/webt5002"
+            href="https://twitter.com"
             target="_blank"
             className="w-8 h-8 shadow-md border-black rounded-full flex items-center justify-center bg-antiflash-white"
           >
@@ -65,7 +65,7 @@ function Footer() {
                 width={15}
                 height={15}
                 alt="Visa logo"
-                src="/assets/images/payment/visa.png"
+                src="/assets/images/payment/visa.svg"
                 className="w-auto h-[95%]"
               ></Image>{" "}
             </li>
