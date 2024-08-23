@@ -233,7 +233,7 @@ body {
 }
 
 .slide-item {
-  @apply w-[25vw] md:w-[16vw] lg:w-[15vw] h-auto rounded-sm;
+  @apply w-[25vw] md:w-[16vw] lg:w-[15vw] h-auto min-h-[32vw] md:min-h-[23vw] bg-cover bg-center rounded-lg;
 }
 
 .slide-image {
