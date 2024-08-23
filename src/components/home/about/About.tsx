@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import {
   IoIosArrowForward,
@@ -6,6 +7,7 @@ import {
 } from "react-icons/io";
 import { SiSamsung, SiNetflix } from "react-icons/si";
 import { FaApple } from "react-icons/fa6";
+import * as ReactScroll from "react-scroll";
 
 function About() {
   return (
@@ -75,10 +77,15 @@ function About() {
               Local to international content
             </li>
           </ul>
-          <button className="primary-button text-lg lg:text-xl xl:text-2xl font-semibold flex gap-1 items-center">
+          <ReactScroll.Link
+            smooth={true}
+            duration={500}
+            to="pricing"
+            className="primary-button text-lg lg:text-xl xl:text-2xl font-semibold flex gap-1 items-center"
+          >
             Get started
             <IoIosArrowForward />
-          </button>
+          </ReactScroll.Link>
         </article>
         <div className="w-2/5 xl:w-1/3 h-full hidden md:grid grid-cols-9 grid-rows-9 gap-3">
           <Image

@@ -18,7 +18,7 @@ export default function Home() {
       <a
         href="https://api.whatsapp.com/send?phone=33758791697"
         target="_blank"
-        className="fixed bottom-6 right-5 xl:right-6 xl:bottom-7 rounded-full p-2 md:p-3 bg-emerald-500"
+        className="fixed bottom-6 right-5 xl:right-6 xl:bottom-7 rounded-full p-2 md:p-3 bg-emerald-500 z-[999]"
       >
         <MdWhatsapp className="text-4xl lg:text-5xl text-white" />
       </a>
