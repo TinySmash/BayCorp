@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 type sliderProps = {
-  Movies: {}[];
+  Movies: string[];
   label: string;
   reverse?: boolean;
 };
@@ -17,17 +17,25 @@ function ShowSlider(props: sliderProps) {
       >
         {props.Movies.map((e, i) => {
           return (
-            <div className="slide-item" key={i}>
+            <div
+              className="slide-item"
+              key={i}
+              style={{ backgroundImage: `url(${e})` }}
+            >
               {/* @ts-ignore */}
-              <img alt="Movie poster" src={e} className="slide-image"></img>
+              {/* <img alt="Movie poster" src={e} className="slide-image"></img> */}
             </div>
           );
         })}
         {props.Movies.map((e, i) => {
           return (
-            <div className="slide-item" key={i}>
+            <div
+              className="slide-item"
+              key={i}
+              style={{ backgroundImage: `url(${e})` }}
+            >
               {/* @ts-ignore */}
-              <img alt="Movie poster" src={e} className="slide-image"></img>
+              {/* <img alt="Movie poster" src={e} className="slide-image"></img> */}
             </div>
           );
         })}
