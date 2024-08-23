@@ -52,11 +52,8 @@ function PricingPlan(props: pricingTag) {
         </a>
         <div
           className="relative rounded-full bg-gradient-to-br from-primary to-secondary p-2 md:p-[10px] cursor-pointer"
-          onMouseEnter={() => {
-            setDevicesHovered(true);
-          }}
-          onMouseLeave={() => {
-            setDevicesHovered(false);
+          onClick={() => {
+            setDevicesHovered(!devicesHovered);
           }}
         >
           <MdDevices className="text-white lg:text-lg" />
