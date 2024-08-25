@@ -1,6 +1,7 @@
 "use client";
 import { RiMenuFoldLine } from "react-icons/ri";
 import Image from "next/image";
+import Link from "next/link";
 import Panel from "./Panel";
 import { useDispatch } from "react-redux";
 import { toggleNav } from "@/redux/reducers/navSlice";
@@ -67,7 +68,10 @@ function Navbar() {
         className="fixed bg-transparent backdrop-blur-none xl:left-1/2 xl:-translate-x-1/2 w-full h-auto px-5 md:px-10 xl:px-16 py-2 md:py-3 xl:py-4 flex justify-between items-center z-[999] bg-opacity-85 transition-all duration-[700ms]"
         ref={navRef}
       >
-        <div className="w-auto h-auto max-h-8 md:max-h-12 lg:max-h-14 relative overflow-y-hidden">
+        <Link
+          className="w-auto h-auto max-h-8 md:max-h-12 lg:max-h-14 relative overflow-y-hidden"
+          href="/"
+        >
           <div
             className={`h-auto flex flex-col items-start lg:items-center gap-8 transition-all duration-1000 ${
               logoSlide ? "-translate-y-[70%]" : "-translate-y-0"
@@ -92,7 +96,7 @@ function Navbar() {
               className="w-20 md:w-24 xl:w-28 h-auto max-h-8 md:max-h-12 lg:max-h-14"
             ></Image>
           </div>
-        </div>
+        </Link>
         <nav
           className="hidden md:flex items-center gap-10 text-sm md:text-base xl:text-lg font-medium text-white"
           ref={navLinksRef}
@@ -103,7 +107,7 @@ function Navbar() {
             to="about"
             className="hover:cursor-pointer"
           >
-            À propos
+            About
           </ReactScroll.Link>
           <ReactScroll.Link
             smooth={true}
@@ -111,7 +115,7 @@ function Navbar() {
             to="trending"
             className="hover:cursor-pointer"
           >
-            Tendence
+            Trending
           </ReactScroll.Link>
           <ReactScroll.Link
             smooth={true}
@@ -119,7 +123,7 @@ function Navbar() {
             to="pricing"
             className="hover:cursor-pointer"
           >
-            Prix
+            Pricing
           </ReactScroll.Link>
         </nav>
         <ReactScroll.Link
@@ -128,7 +132,7 @@ function Navbar() {
           to="pricing"
           className="primary-button hidden md:flex text-lg xl:text-xl cursor-pointer"
         >
-          Commencer
+          Get started
         </ReactScroll.Link>
         <button
           className="md:hidden transition-all duration-700 text-white"
