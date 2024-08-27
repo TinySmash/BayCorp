@@ -17,11 +17,9 @@ function About() {
     >
       <h1 className="text-2xl md:text-3xl lg:text-4xl lg:w-2/3 font-bold text-black md:mb-10">
         <span className="text-primary text-3xl md:text-4xl lg:text-5xl">
-          Bay
+          IPTV
         </span>
-        <span className="text-third text-xl md:text-2xl lg:text-3xl">
-          IPTV{" "}
-        </span>
+        <span className="text-third text-xl md:text-2xl lg:text-3xl">BAY </span>
         premium IPTV subscription
       </h1>
       <div className="w-full sm:w-2/3 grid md:hidden grid-cols-9 grid-rows-9 gap-3">

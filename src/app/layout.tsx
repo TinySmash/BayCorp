@@ -10,6 +10,9 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "IPTVBay: Abonnement IPTV premium",
   description: "Get your IPTV subscription now",
+  // icons: {
+  //   icon: "@/app/favicon.ico",
+  // },
 };
 
 export default function RootLayout({
