@@ -58,7 +58,7 @@ function PricingPlan(props: pricingTag) {
         >
           <MdDevices className="text-white lg:text-lg" />
           <div
-            className={`w-fit h-auto flex-col items-center bg-white border absolute translate-x-7 lg:translate-x-8 -translate-y-[65%] ${
+            className={`w-fit h-auto flex-col items-center bg-white border absolute translate-x-7 lg:translate-x-8 -translate-y-[65%] z-[60] ${
               devicesHovered ? "flex" : "hidden"
             }`}
           >
