@@ -43,6 +43,7 @@ function SlideShowSection() {
             alt="Football poster"
             src="/assets/images/slideshow/belli.svg"
             className=" w-full h-auto md:h-full md:w-auto sm:mt-5 md:mt-0 md:object-cover"
+            priority
           ></Image>
         </li>
         <li
@@ -57,6 +58,7 @@ function SlideShowSection() {
             alt="TV series poster"
             src="/assets/images/slideshow/movie.svg"
             className="w-full h-auto md:h-full md:w-auto md:object-cover"
+            priority
           ></Image>
         </li>
         <li
@@ -71,6 +73,7 @@ function SlideShowSection() {
             alt="Basketball poster"
             src="/assets/images/slideshow/KD.svg"
             className="w-full h-auto md:h-full md:w-auto md:object-cover"
+            priority
           ></Image>
         </li>
         <li
@@ -85,6 +88,7 @@ function SlideShowSection() {
             alt="Movie poster"
             src="/assets/images/slideshow/series.svg"
             className="w-full h-auto md:h-full md:w-auto -mt-7 md:mt-0 md:object-cover"
+            priority
           ></Image>
         </li>
       </ul>
